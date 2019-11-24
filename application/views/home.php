@@ -59,7 +59,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							</div>
 							<div class="col-lg-7">
 								<div class="banner-img">
-									<img class="img-fluid" src="assets/img/banner/banner-img.png" alt="">
+									<img class="img-fluid" src="img/banner/banner-img.png" alt="">
 								</div>
 							</div>
 						</div>
@@ -77,7 +77,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							</div>
 							<div class="col-lg-7">
 								<div class="banner-img">
-									<img class="img-fluid" src="assets/img/banner/banner-img.png" alt="">
+									<img class="img-fluid" src="img/banner/banner-img.png" alt="">
 								</div>
 							</div>
 						</div>
@@ -96,7 +96,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="single-features">
 						<div class="f-icon">
-							<img src="assets/img/features/f-icon1.png" alt="">
+							<img src="img/features/f-icon1.png" alt="">
 						</div>
 						<h6>Free Delivery</h6>
 						<p>Free Shipping on all order</p>
@@ -106,7 +106,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="single-features">
 						<div class="f-icon">
-							<img src="assets/img/features/f-icon2.png" alt="">
+							<img src="img/features/f-icon2.png" alt="">
 						</div>
 						<h6>Return Policy</h6>
 						<p>Free Shipping on all order</p>
@@ -116,7 +116,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="single-features">
 						<div class="f-icon">
-							<img src="assets/img/features/f-icon3.png" alt="">
+							<img src="img/features/f-icon3.png" alt="">
 						</div>
 						<h6>24/7 Support</h6>
 						<p>Free Shipping on all order</p>
@@ -126,7 +126,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="single-features">
 						<div class="f-icon">
-							<img src="assets/img/features/f-icon4.png" alt="">
+							<img src="img/features/f-icon4.png" alt="">
 						</div>
 						<h6>Secure Payment</h6>
 						<p>Free Shipping on all order</p>
@@ -146,8 +146,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="col-lg-8 col-md-8">
 							<div class="single-deal">
 								<div class="overlay"></div>
-								<img class="img-fluid w-100" src="assets/img/category/c1.jpg" alt="">
-								<a href="assets/img/category/c1.jpg" class="img-pop-up" target="_blank">
+								<img class="img-fluid w-100" src="img/category/c1.jpg" alt="">
+								<a href="img/category/c1.jpg" class="img-pop-up" target="_blank">
 									<div class="deal-details">
 										<h6 class="deal-title">Sneaker for Sports</h6>
 									</div>
@@ -157,8 +157,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="col-lg-4 col-md-4">
 							<div class="single-deal">
 								<div class="overlay"></div>
-								<img class="img-fluid w-100" src="assets/img/category/c2.jpg" alt="">
-								<a href="assets/img/category/c2.jpg" class="img-pop-up" target="_blank">
+								<img class="img-fluid w-100" src="img/category/c2.jpg" alt="">
+								<a href="img/category/c2.jpg" class="img-pop-up" target="_blank">
 									<div class="deal-details">
 										<h6 class="deal-title">Sneaker for Sports</h6>
 									</div>
@@ -168,8 +168,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="col-lg-4 col-md-4">
 							<div class="single-deal">
 								<div class="overlay"></div>
-								<img class="img-fluid w-100" src="assets/img/category/c3.jpg" alt="">
-								<a href="assets/img/category/c3.jpg" class="img-pop-up" target="_blank">
+								<img class="img-fluid w-100" src="img/category/c3.jpg" alt="">
+								<a href="img/category/c3.jpg" class="img-pop-up" target="_blank">
 									<div class="deal-details">
 										<h6 class="deal-title">Sneaker for Sports</h6>
 									</div>
@@ -179,8 +179,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="col-lg-8 col-md-8">
 							<div class="single-deal">
 								<div class="overlay"></div>
-								<img class="img-fluid w-100" src="assets/img/category/c4.jpg" alt="">
-								<a href="assets/img/category/c4.jpg" class="img-pop-up" target="_blank">
+								<img class="img-fluid w-100" src="img/category/c4.jpg" alt="">
+								<a href="img/category/c4.jpg" class="img-pop-up" target="_blank">
 									<div class="deal-details">
 										<h6 class="deal-title">Sneaker for Sports</h6>
 									</div>
@@ -192,8 +192,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="col-lg-4 col-md-6">
 					<div class="single-deal">
 						<div class="overlay"></div>
-						<img class="img-fluid w-100" src="assets/img/category/c5.jpg" alt="">
-						<a href="assets/img/category/c5.jpg" class="img-pop-up" target="_blank">
+						<img class="img-fluid w-100" src="img/category/c5.jpg" alt="">
+						<a href="img/category/c5.jpg" class="img-pop-up" target="_blank">
 							<div class="deal-details">
 								<h6 class="deal-title">Sneaker for Sports</h6>
 							</div>
@@ -222,7 +222,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/lp1.jpg" alt="">
+							<img class="img-fluid" src="img/product/lp1.jpg" alt="">
 							<div class="product-details">
 								<h6>Nike Zoom Fly Bright Crimson</h6>
 								<div class="price">
@@ -245,7 +245,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/lp2.jpg" alt="">
+							<img class="img-fluid" src="img/product/lp2.jpg" alt="">
 							<div class="product-details">
 								<h6>KD 6 Meteorology</h6>
 								<div class="price">
@@ -269,7 +269,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/lp3.jpg" alt="">
+							<img class="img-fluid" src="img/product/lp3.jpg" alt="">
 							<div class="product-details">
 								<h6>Kobe 11 Elite Low FCB Mambacurial</h6>
 								<div class="price">
@@ -292,7 +292,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/lp4.jpg" alt="">
+							<img class="img-fluid" src="img/product/lp4.jpg" alt="">
 							<div class="product-details">
 								<h6>BRONAX Men's Stylish Graffiti</h6>
 								<div class="price">
@@ -316,7 +316,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/lp5.jpg" alt="">
+							<img class="img-fluid" src="img/product/lp5.jpg" alt="">
 							<div class="product-details">
 								<h6>Adidas NMD Hu Pharrell Inspiration Pack Black</h6>
 								<div class="price">
@@ -340,7 +340,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/lp6.jpg" alt="">
+							<img class="img-fluid" src="img/product/lp6.jpg" alt="">
 							<div class="product-details">
 								<h6>Air Zoom Pegasus 35 Black</h6>
 								<div class="price">
@@ -364,7 +364,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/lp7.jpg" alt="">
+							<img class="img-fluid" src="img/product/lp7.jpg" alt="">
 							<div class="product-details">
 								<h6>Adidas Ultra Boost 2.0 Gold Medal</h6>
 								<div class="price">
@@ -388,7 +388,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/lp8.jpg" alt="">
+							<img class="img-fluid" src="img/product/lp8.jpg" alt="">
 							<div class="product-details">
 								<h6>Kyrie 2 Low Spongebob Sandy Cheeks</h6>
 								<div class="price">
@@ -427,7 +427,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/cp1.jpg" alt="">
+							<img class="img-fluid" src="img/product/cp1.jpg" alt="">
 							<div class="product-details">
 								<h6>Kyrie 2 Low Spongebob Mr Krabs</h6>
 								<div class="price">
@@ -451,7 +451,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/cp2.jpg" alt="">
+							<img class="img-fluid" src="img/product/cp2.jpg" alt="">
 							<div class="product-details">
 								<h6>Nike Adapt BB Mag</h6>
 								<div class="price">
@@ -475,7 +475,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/cp3.jpg" alt="">
+							<img class="img-fluid" src="img/product/cp3.jpg" alt="">
 							<div class="product-details">
 								<h6>Kobe A.D. NXT Black White</h6>
 								<div class="price">
@@ -499,7 +499,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/cp4.jpg" alt="">
+							<img class="img-fluid" src="img/product/cp4.jpg" alt="">
 							<div class="product-details">
 								<h6>Under Armour Curry 5 Black Gold</h6>
 								<div class="price">
@@ -523,7 +523,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/cp5.jpg" alt="">
+							<img class="img-fluid" src="img/product/cp5.jpg" alt="">
 							<div class="product-details">
 								<h6>Kobe 11 Elite Low BHM</h6>
 								<div class="price">
@@ -547,7 +547,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/cp6.jpg" alt="">
+							<img class="img-fluid" src="img/product/cp6.jpg" alt="">
 							<div class="product-details">
 								<h6>Nike Mamba Rage Blue Nebula</h6>
 								<div class="price">
@@ -571,7 +571,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/cp7.jpg" alt="">
+							<img class="img-fluid" src="img/product/cp7.jpg" alt="">
 							<div class="product-details">
 								<h6>KD 7 What the KD</h6>
 								<div class="price">
@@ -595,7 +595,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<!-- single product -->
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/cp8.jpg" alt="">
+							<img class="img-fluid" src="img/product/cp8.jpg" alt="">
 							<div class="product-details">
 								<h6>Kobe 8 Mambacurial</h6>
 								<div class="price">
@@ -659,7 +659,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div class="active-exclusive-product-slider">
 						<!-- single exclusive carousel -->
 						<div class="single-exclusive-slider">
-							<img class="img-fluid" src="assets/img/product/e-p1.png" alt="">
+							<img class="img-fluid" src="img/product/e-p1.png" alt="">
 							<div class="product-details">
 								<div class="price">
 									<h6>$86.99</h6>
@@ -674,7 +674,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						</div>
 						<!-- single exclusive carousel -->
 						<div class="single-exclusive-slider">
-							<img class="img-fluid" src="assets/img/product/e-p2.png" alt="">
+							<img class="img-fluid" src="img/product/e-p2.png" alt="">
 							<div class="product-details">
 								<div class="price">
 									<h6>$250.00</h6>
@@ -699,13 +699,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="container">
 			<div class="row">
 				<a class="col single-img" href="#">
-					<img class="img-fluid d-block mx-auto" src="assets/img/brand/1.png" alt="">
+					<img class="img-fluid d-block mx-auto" src="img/brand/1.png" alt="">
 				</a>
 				<a class="col single-img" href="#">
-					<img class="img-fluid d-block mx-auto" src="assets/img/brand/2.png" alt="">
+					<img class="img-fluid d-block mx-auto" src="img/brand/2.png" alt="">
 				</a>
 				<a class="col single-img" href="#">
-					<img class="img-fluid d-block mx-auto" src="assets/img/brand/3.png" alt="">
+					<img class="img-fluid d-block mx-auto" src="img/brand/3.png" alt="">
 				</a>
 			</div>
 		</div>
