@@ -5,7 +5,7 @@
 				<div class="col-lg-3  col-md-6 col-sm-6">
 					<div class="single-footer-widget">
 						<h6>About Us</h6>
-						<p>....</p>
+						<p>Kelompok 10 Tugas Besar Web Computer Science Universitas Pertamina Tema Toko Sepatu</p>
 					</div>
 				</div>
 				<div class="col-lg-4  col-md-6 col-sm-6">
