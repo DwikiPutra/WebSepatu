@@ -50,7 +50,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<div class="col-lg-5 col-md-6">
 								<div class="banner-content">
 									<h1>Nike New <br>Collection!</h1>
-									<p>....</p>
+									<p>Mario</p>
 									<div class="add-bag d-flex align-items-center">
 										<a class="add-btn" href=""><span class="lnr lnr-cross"></span></a>
 										<span class="add-text text-uppercase">Add to Bag</span>
