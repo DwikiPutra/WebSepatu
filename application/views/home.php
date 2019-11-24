@@ -214,7 +214,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div class="col-lg-6 text-center">
 						<div class="section-title">
 							<h1>Latest Products</h1>
-							<p>....</p>
+							<p>New Products for 2018</p>
 						</div>
 					</div>
 				</div>
@@ -419,7 +419,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div class="col-lg-6 text-center">
 						<div class="section-title">
 							<h1>Coming Products</h1>
-							<p>....</p>
+							<p>New Products for 2019</p>
 						</div>
 					</div>
 				</div>
