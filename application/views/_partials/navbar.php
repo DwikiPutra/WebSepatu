@@ -20,7 +20,6 @@
 								 aria-expanded="false">Shop</a>
 								<ul class="dropdown-menu">
 									<li class="nav-item"><a class="nav-link" href=<?php echo base_url('shop/category') ?>>Shop Category</a></li>
-									<li class="nav-item"><a class="nav-link" href=<?php echo base_url('shop/detail')?>>Product Details</a></li>
 									<li class="nav-item"><a class="nav-link" href=<?php echo base_url('shop/checkout') ?>>Product Checkout</a></li>
 									<li class="nav-item"><a class="nav-link" href=<?php echo base_url('shop/cart') ?>>Shopping Cart</a></li>
 									<li class="nav-item"><a class="nav-link" href=<?php echo base_url('shop/confirmation') ?>>Confirmation</a></li>
