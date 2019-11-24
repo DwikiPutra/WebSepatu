@@ -50,7 +50,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<div class="col-lg-5 col-md-6">
 								<div class="banner-content">
 									<h1>Nike New <br>Collection!</h1>
-									<p>Nike Zoom Soldier VIII Flyease</p>
+									<h5>Nike Zoom Soldier VIII Flyease</h5>
 									<div class="add-bag d-flex align-items-center">
 										<a class="add-btn" href=""><span class="lnr lnr-cross"></span></a>
 										<span class="add-text text-uppercase">Add to Bag</span>
@@ -68,7 +68,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<div class="col-lg-5">
 								<div class="banner-content">
 									<h1>Nike New <br>Collection!</h1>
-									<p>Under Armour Curry 5 Low Black Gold</p>
+									<h5>Under Armour Curry 5 Low Black Gold</h5>
 									<div class="add-bag d-flex align-items-center">
 										<a class="add-btn" href=""><span class="lnr lnr-cross"></span></a>
 										<span class="add-text text-uppercase">Add to Bag</span>
