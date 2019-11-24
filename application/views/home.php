@@ -253,6 +253,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<h6 class="l-through">$199.00</h6>
 								</div>
 								<div class="prd-bottom">
+
 									<a href="" class="social-info">
 										<span class="ti-bag"></span>
 										<p class="hover-text">add to bag</p>
@@ -299,6 +300,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<h6 class="l-through">$36.99</h6>
 								</div>
 								<div class="prd-bottom">
+
 									<a href="" class="social-info">
 										<span class="ti-bag"></span>
 										<p class="hover-text">add to bag</p>
@@ -322,6 +324,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<h6 class="l-through">$376.42</h6>
 								</div>
 								<div class="prd-bottom">
+
 									<a href="" class="social-info">
 										<span class="ti-bag"></span>
 										<p class="hover-text">add to bag</p>
@@ -345,6 +348,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<h6 class="l-through">$120.00</h6>
 								</div>
 								<div class="prd-bottom">
+
 									<a href="" class="social-info">
 										<span class="ti-bag"></span>
 										<p class="hover-text">add to bag</p>
@@ -368,6 +372,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<h6 class="l-through">$169.99</h6>
 								</div>
 								<div class="prd-bottom">
+
 									<a href="" class="social-info">
 										<span class="ti-bag"></span>
 										<p class="hover-text">add to bag</p>
@@ -391,6 +396,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<h6 class="l-through">$295.00</h6>
 								</div>
 								<div class="prd-bottom">
+
 									<a href="" class="social-info">
 										<span class="ti-bag"></span>
 										<p class="hover-text">add to bag</p>
@@ -429,6 +435,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<h6 class="l-through">$415.00</h6>
 								</div>
 								<div class="prd-bottom">
+
 									<a href="" class="social-info">
 										<span class="ti-bag"></span>
 										<p class="hover-text">add to bag</p>
@@ -452,6 +459,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<h6 class="l-through">$1,359.00</h6>
 								</div>
 								<div class="prd-bottom">
+
 									<a href="" class="social-info">
 										<span class="ti-bag"></span>
 										<p class="hover-text">add to bag</p>
@@ -475,6 +483,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<h6 class="l-through">$188.00</h6>
 								</div>
 								<div class="prd-bottom">
+
 									<a href="" class="social-info">
 										<span class="ti-bag"></span>
 										<p class="hover-text">add to bag</p>
@@ -498,6 +507,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<h6 class="l-through">$175.00</h6>
 								</div>
 								<div class="prd-bottom">
+
 									<a href="" class="social-info">
 										<span class="ti-bag"></span>
 										<p class="hover-text">add to bag</p>
@@ -521,6 +531,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<h6 class="l-through">$299.99</h6>
 								</div>
 								<div class="prd-bottom">
+
 									<a href="" class="social-info">
 										<span class="ti-bag"></span>
 										<p class="hover-text">add to bag</p>
@@ -544,6 +555,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<h6 class="l-through">$85.00</h6>
 								</div>
 								<div class="prd-bottom">
+
 									<a href="" class="social-info">
 										<span class="ti-bag"></span>
 										<p class="hover-text">add to bag</p>
@@ -567,6 +579,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<h6 class="l-through">$280.00</h6>
 								</div>
 								<div class="prd-bottom">
+
 									<a href="" class="social-info">
 										<span class="ti-bag"></span>
 										<p class="hover-text">add to bag</p>
@@ -590,6 +603,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<h6 class="l-through">$375.00</h6>
 								</div>
 								<div class="prd-bottom">
+
 									<a href="" class="social-info">
 										<span class="ti-bag"></span>
 										<p class="hover-text">add to bag</p>
