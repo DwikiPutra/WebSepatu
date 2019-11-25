@@ -34,9 +34,9 @@
 					<div class="details_item">
 						<h4>Order Info</h4>
 						<ul class="list">
-							<li><a href="#"><span>Order number</span> : 60235</a></li>
-							<li><a href="#"><span>Date</span> : Los Angeles</a></li>
-							<li><a href="#"><span>Total</span> : USD 2210</a></li>
+							<li><a href="#"><span>Order number</span> : 60606</a></li>
+							<li><a href="#"><span>Date</span> : Indonesia</a></li>
+							<li><a href="#"><span>Total</span> : Rp. 25000</a></li>
 							<li><a href="#"><span>Payment method</span> : Check payments</a></li>
 						</ul>
 					</div>
@@ -45,9 +45,9 @@
 					<div class="details_item">
 						<h4>Billing Address</h4>
 						<ul class="list">
-							<li><a href="#"><span>Street</span> : 56/8</a></li>
-							<li><a href="#"><span>City</span> : Los Angeles</a></li>
-							<li><a href="#"><span>Country</span> : United States</a></li>
+							<li><a href="#"><span>Street</span> : U3/56</a></li>
+							<li><a href="#"><span>City</span> : Indonesia</a></li>
+							<li><a href="#"><span>Country</span> : Jakarta Selatan</a></li>
 							<li><a href="#"><span>Postcode </span> : 36952</a></li>
 						</ul>
 					</div>
@@ -56,10 +56,10 @@
 					<div class="details_item">
 						<h4>Shipping Address</h4>
 						<ul class="list">
-							<li><a href="#"><span>Street</span> : 56/8</a></li>
-							<li><a href="#"><span>City</span> : Los Angeles</a></li>
-							<li><a href="#"><span>Country</span> : United States</a></li>
-							<li><a href="#"><span>Postcode </span> : 36952</a></li>
+							<li><a href="#"><span>Street</span> : U3/56</a></li>
+							<li><a href="#"><span>City</span> : Indonesia</a></li>
+							<li><a href="#"><span>Country</span> : Jakarta</a></li>
+							<li><a href="#"><span>Postcode </span> : 666666</a></li>
 						</ul>
 					</div>
 				</div>
