@@ -67,7 +67,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="row single-slide">
 							<div class="col-lg-5">
 								<div class="banner-content">
-									<h1>Nike New <br>Collection!</h1>
+									<h1>Curry New <br>Collection!</h1>
 									<h5>Under Armour Curry 5 Low Black Gold</h5>
 									<div class="add-bag d-flex align-items-center">
 										<a class="add-btn" href=""><span class="lnr lnr-cross"></span></a>
