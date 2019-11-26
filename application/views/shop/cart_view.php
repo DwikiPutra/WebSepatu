@@ -94,7 +94,7 @@
                             </tr>
                             <tr class="bottom_button">
                                 <td>
-                                    <a class="gray_btn" href="#">Update Cart</a>
+                                    <a class="gray_btn" href="#">Update Cart</a> <!-- Referesh page -->
                                 </td>
                                 <td>
 
@@ -105,7 +105,7 @@
                                 <td>
                                     <div class="cupon_text d-flex align-items-center">
                                         <input type="text" placeholder="Coupon Code">
-                                        <a class="primary-btn" href="#">Apply</a>
+                                        <a class="primary-btn" href="#">Apply</a> 
                                         <a class="gray_btn" href="#">Close Coupon</a>
                                     </div>
                                 </td>
@@ -172,8 +172,8 @@
                                 </td>
                                 <td>
                                     <div class="checkout_btn_inner d-flex align-items-center">
-                                        <a class="gray_btn" href="#">Continue Shopping</a>
-                                        <a class="primary-btn" href="#">Proceed to checkout</a>
+                                        <a class="gray_btn" href="#">Continue Shopping</a> <!-- href ke kategori page 1 -->
+                                        <a class="primary-btn" href="#">Proceed to checkout</a> <!-- href ke Checkout -->
                                     </div>
                                 </td>
                             </tr>

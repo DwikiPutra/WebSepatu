@@ -86,21 +86,14 @@
 									<option value="United Kingdom">United Kingdom</option> 
 									<option value="Australia">Australia</option> 
 									<option value="Austria">Austria</option> 
-									<option value="Belarus">Belarus</option> 
 									<option value="Belgium">Belgium</option> 
 									<option value="Brazil">Brazil</option> 
 									<option value="Brunei Darussalam">Brunei Darussalam</option> 
 									<option value="Bulgaria">Bulgaria</option> 
 									<option value="China">China</option> 
 									<option value="Denmark">Denmark</option> 
-									<option value="Egypt">Egypt</option> 
-									<option value="El Salvador">El Salvador</option> 
 									<option value="Finland">Finland</option> 
 									<option value="France">France</option> 
-									<option value="French Guiana">French Guiana</option> 
-									<option value="French Polynesia">French Polynesia</option> 
-									<option value="Gabon">Gabon</option> 
-									<option value="Gambia">Gambia</option> 
 									<option value="Georgia">Georgia</option> 
 									<option value="Germany">Germany</option> 
 									<option value="Hong Kong">Hong Kong</option> 
@@ -108,7 +101,6 @@
 									<option value="Iceland">Iceland</option> 
 									<option value="India">India</option> 
 									<option value="Indonesia">Indonesia</option> 
-									<option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option> 
 									<option value="Iraq">Iraq</option> 
 									<option value="Ireland">Ireland</option> 
 									<option value="Israel">Israel</option> 
@@ -118,35 +110,20 @@
 									<option value="Jordan">Jordan</option> 
 									<option value="Kazakhstan">Kazakhstan</option> 
 									<option value="Kenya">Kenya</option> 
-									<option value="Kiribati">Kiribati</option> 
-									<option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option> 
-									<option value="Korea, Republic of">Korea, Republic of</option> 
 									<option value="Macao">Macao</option> 
-									<option value="North Macedonia">North Macedonia</option> 
 									<option value="Madagascar">Madagascar</option> 
 									<option value="Netherlands">Netherlands</option> 
-									<option value="Netherlands Antilles">Netherlands Antilles</option> 
 									<option value="New Caledonia">New Caledonia</option> 
 									<option value="New Zealand">New Zealand</option> 
-									<option value="Nicaragua">Nicaragua</option> 
-									<option value="Niger">Niger</option> 
-									<option value="Nigeria">Nigeria</option> 
-									<option value="Niue">Niue</option> 
-									<option value="Norfolk Island">Norfolk Island</option> 
-									<option value="Northern Mariana Islands">Northern Mariana Islands</option> 
 									<option value="Norway">Norway</option> 
 									<option value="Oman">Oman</option> 
 									<option value="Panama">Panama</option> 
 									<option value="Paraguay">Paraguay</option> 
 									<option value="Peru">Peru</option> 
 									<option value="Philippines">Philippines</option> 
-									<option value="Pitcairn">Pitcairn</option> 
 									<option value="Poland">Poland</option> 
 									<option value="Portugal">Portugal</option> 
 									<option value="Qatar">Qatar</option> 
-									<option value="Samoa">Samoa</option> 
-									<option value="San Marino">San Marino</option> 
-									<option value="Sao Tome and Principe">Sao Tome and Principe</option> 
 									<option value="Saudi Arabia">Saudi Arabia</option> 
 									<option value="Singapore">Singapore</option> 
 									<option value="Spain">Spain</option> 
@@ -193,8 +170,8 @@
                             </ul>
                             <ul class="list list_2">
                                 <li><a href="#">Subtotal <span>$725.00</span></a></li>
-                                <li><a href="#">Shipping <span>....</span></a></li>
-                                <li><a href="#">Total <span>$725.00</span></a></li>
+                                <li><a href="#">Shipping <span>$8.99</span></a></li>
+                                <li><a href="#">Total <span>$805.99</span></a></li>
                             </ul>
                             <div class="payment_item">
                                 <div class="radion_btn">
@@ -220,7 +197,7 @@
                                 <label for="f-option4">I’ve read and accept the </label>
                                 <a href="#">terms & conditions*</a>
                             </div>
-                            <a class="primary-btn" href="#">Proceed to Paypal</a>
+                            <a class="primary-btn" href="#">Proceed to Paypal</a> <!-- href ke confirmation-->
                         </div>
                     </div>
                 </div>

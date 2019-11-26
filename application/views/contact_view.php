@@ -37,12 +37,12 @@
 						</div>
 						<div class="info_item">
 							<i class="lnr lnr-phone-handset"></i>
-							<h6><a href="#">10 (217) 1212 105</a></h6>
+							<h6>10 (217) 1212 105</h6>
 							<p>Mon to Fri 9am to 6 pm</p>
 						</div>
 						<div class="info_item">
 							<i class="lnr lnr-envelope"></i>
-							<h6><a href="#">Kelompok10@cs.com</a></h6>
+							<h6>Kelompok10@cs.com</h6>
 							<p>Send us your query anytime!</p>
 						</div>
 					</div>

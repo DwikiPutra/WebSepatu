@@ -67,7 +67,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="row single-slide">
 							<div class="col-lg-5">
 								<div class="banner-content">
-									<h1>Curry New <br>Collection!</h1>
+									<h1>Under Armour New <br>Collection!</h1>
 									<h5>Under Armour Curry 5 Low Black Gold</h5>
 									<div class="add-bag d-flex align-items-center">
 										<a class="add-btn" href=""><span class="lnr lnr-cross"></span></a>
@@ -698,13 +698,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<section class="brand-area section_gap">
 		<div class="container">
 			<div class="row">
-				<a class="col single-img" href="#">
+				<a class="col single-img" href="#"> <!-- href ke kategori nike -->
 					<img class="img-fluid d-block mx-auto" src="assets/img/brand/1.png" alt="">
 				</a>
-				<a class="col single-img" href="#">
+				<a class="col single-img" href="#"> <!-- href ke kategori under armour -->
 					<img class="img-fluid d-block mx-auto" src="assets/img/brand/2.png" alt="">
 				</a>
-				<a class="col single-img" href="#">
+				<a class="col single-img" href="#"> <!-- href ke kategori adidas -->
 					<img class="img-fluid d-block mx-auto" src="assets/img/brand/3.png" alt="">
 				</a>
 			</div>

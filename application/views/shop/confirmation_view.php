@@ -32,7 +32,7 @@
 						<ul class="list">
 							<li><a href="#"><span>Order number</span> : 60606</a></li>
 							<li><a href="#"><span>Date</span> : Indonesia</a></li>
-							<li><a href="#"><span>Total</span> : Rp. 25000</a></li>
+							<li><a href="#"><span>Total</span> : $805.99</a></li>
 							<li><a href="#"><span>Payment method</span> : Check payments</a></li>
 						</ul>
 					</div>
@@ -55,7 +55,7 @@
 							<li><a href="#"><span>Street</span> : U3/56</a></li>
 							<li><a href="#"><span>City</span> : Indonesia</a></li>
 							<li><a href="#"><span>Country</span> : Jakarta</a></li>
-							<li><a href="#"><span>Postcode </span> : 666666</a></li>
+							<li><a href="#"><span>Postcode </span> : 105217</a></li>
 						</ul>
 					</div>
 				</div>
@@ -113,7 +113,7 @@
 									<h5></h5>
 								</td>
 								<td>
-									<p>....</p>
+									<p>$8.99</p>
 								</td>
 							</tr>
 							<tr>
@@ -124,7 +124,7 @@
 									<h5></h5>
 								</td>
 								<td>
-									<p>$725.00</p>
+									<p>$805.99</p>
 								</td>
 							</tr>
 						</tbody>
