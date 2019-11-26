@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="zxx" class="no-js">
-
-<head>
-    <?php $this->load->view("_partials/header.php") ?>
-</head>
+<?php $this->load->view("_partials/header.php") ?>
 
 <body id="category">
 

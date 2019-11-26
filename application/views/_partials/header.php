@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
 <!-- Mobile Specific Meta -->
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
@@ -24,3 +28,7 @@
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/nouislider.min.css');?>">
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.css');?>">
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/main.css');?>">
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/ion.rangeSlider.css')?>" />
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/ion.rangeSlider.skinFlat.css')?>" />
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/magnific-popup.css')?>">
+</head>
