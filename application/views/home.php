@@ -1,40 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<!DOCTYPE html>
-<html lang="zxx" class="no-js">
-
-<head>
-	<!-- Mobile Specific Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- Favicon-->
-	<link rel="shortcut icon" href="img/fav.png">
-	<!-- Author Meta -->
-	<meta name="author" content="CodePixar">
-	<!-- Meta Description -->
-	<meta name="description" content="">
-	<!-- Meta Keyword -->
-	<meta name="keywords" content="">
-	<!-- meta character set -->
-	<meta charset="UTF-8">
-	<!-- Site Title -->
-	<title>Karma Shop</title>
-	<!--
-		CSS
-		============================================= -->
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/linearicons.css');?>">
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/font-awesome.min.css');?>">
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/themify-icons.css');?>">
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.css');?>">
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/owl.carousel.css');?>">
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/nice-select.css');?>">
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/nouislider.min.css')?>">
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/ion.rangeSlider.css')?>" />
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/ion.rangeSlider.skinFlat.css')?>" />
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/magnific-popup.css')?>">
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/main.css')?>">
-</head>
-
+<?php $this->load->view("_partials/header.php") ?>
 <body>
 
 	<?php $this->load->view("_partials/navbar.php") ?>
@@ -214,201 +181,36 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div class="col-lg-6 text-center">
 						<div class="section-title">
 							<h1>Latest Products</h1>
-							<p>New Products for 2018</p>
+							<p>New Products for 2019</p>
 						</div>
 					</div>
 				</div>
 				<div class="row">
 					<!-- single product -->
-					<div class="col-lg-3 col-md-6">
-						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/lp1.jpg" alt="">
-							<div class="product-details">
-								<h6>Nike Zoom Fly Bright Crimson</h6>
-								<div class="price">
-									<h6>$85.00</h6>
-									<h6 class="l-through">$100.00</h6>
-								</div>
-								<div class="prd-bottom">
-									<a href="" class="social-info">
-										<span class="ti-bag"></span>
-										<p class="hover-text">add to bag</p>
-									</a>
-									<a href="" class="social-info">
-										<span class="lnr lnr-move"></span>
-										<p class="hover-text">view more</p>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- single product -->
-					<div class="col-lg-3 col-md-6">
-						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/lp2.jpg" alt="">
-							<div class="product-details">
-								<h6>KD 6 Meteorology</h6>
-								<div class="price">
-									<h6>$120.00</h6>
-									<h6 class="l-through">$199.00</h6>
-								</div>
-								<div class="prd-bottom">
-
-									<a href="" class="social-info">
-										<span class="ti-bag"></span>
-										<p class="hover-text">add to bag</p>
-									</a>
-									<a href="" class="social-info">
-										<span class="lnr lnr-move"></span>
-										<p class="hover-text">view more</p>
-									</a>
+					<?php foreach( $lProduct as $pro):?>
+						<div class="col-lg-3 col-md-6">
+							<div class="single-product">
+								<img class="img-fluid" src="assets/img/product/<?php echo $pro->gambar; ?>.jpg" alt="">
+								<div class="product-details">
+									<h6><?php echo $pro->name; ?></h6>
+									<div class="price">
+										<h6>$<?php echo strval($pro->harga); ?></h6>
+										<h6 class="l-through">$100.00</h6>
+									</div>
+									<div class="prd-bottom">
+										<a href="" class="social-info">
+											<span class="ti-bag"></span>
+											<p class="hover-text">add to bag</p>
+										</a>
+										<a href="" class="social-info">
+											<span class="lnr lnr-move"></span>
+											<p class="hover-text">view more</p>
+										</a>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<!-- single product -->
-					<div class="col-lg-3 col-md-6">
-						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/lp3.jpg" alt="">
-							<div class="product-details">
-								<h6>Kobe 11 Elite Low FCB Mambacurial</h6>
-								<div class="price">
-									<h6>$250.00</h6>
-									<h6 class="l-through">$265.00</h6>
-								</div>
-								<div class="prd-bottom">
-									<a href="" class="social-info">
-										<span class="ti-bag"></span>
-										<p class="hover-text">add to bag</p>
-									</a>
-									<a href="" class="social-info">
-										<span class="lnr lnr-move"></span>
-										<p class="hover-text">view more</p>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- single product -->
-					<div class="col-lg-3 col-md-6">
-						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/lp4.jpg" alt="">
-							<div class="product-details">
-								<h6>BRONAX Men's Stylish Graffiti</h6>
-								<div class="price">
-									<h6>$25.99</h6>
-									<h6 class="l-through">$36.99</h6>
-								</div>
-								<div class="prd-bottom">
-
-									<a href="" class="social-info">
-										<span class="ti-bag"></span>
-										<p class="hover-text">add to bag</p>
-									</a>
-									<a href="" class="social-info">
-										<span class="lnr lnr-move"></span>
-										<p class="hover-text">view more</p>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- single product -->
-					<div class="col-lg-3 col-md-6">
-						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/lp5.jpg" alt="">
-							<div class="product-details">
-								<h6>Adidas NMD Hu Pharrell Inspiration Pack Black</h6>
-								<div class="price">
-									<h6>$210.00</h6>
-									<h6 class="l-through">$376.42</h6>
-								</div>
-								<div class="prd-bottom">
-
-									<a href="" class="social-info">
-										<span class="ti-bag"></span>
-										<p class="hover-text">add to bag</p>
-									</a>
-									<a href="" class="social-info">
-										<span class="lnr lnr-move"></span>
-										<p class="hover-text">view more</p>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- single product -->
-					<div class="col-lg-3 col-md-6">
-						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/lp6.jpg" alt="">
-							<div class="product-details">
-								<h6>Air Zoom Pegasus 35 Black</h6>
-								<div class="price">
-									<h6>$100.00</h6>
-									<h6 class="l-through">$120.00</h6>
-								</div>
-								<div class="prd-bottom">
-
-									<a href="" class="social-info">
-										<span class="ti-bag"></span>
-										<p class="hover-text">add to bag</p>
-									</a>
-									<a href="" class="social-info">
-										<span class="lnr lnr-move"></span>
-										<p class="hover-text">view more</p>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- single product -->
-					<div class="col-lg-3 col-md-6">
-						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/lp7.jpg" alt="">
-							<div class="product-details">
-								<h6>Adidas Ultra Boost 2.0 Gold Medal</h6>
-								<div class="price">
-									<h6>$144.00</h6>
-									<h6 class="l-through">$169.99</h6>
-								</div>
-								<div class="prd-bottom">
-
-									<a href="" class="social-info">
-										<span class="ti-bag"></span>
-										<p class="hover-text">add to bag</p>
-									</a>
-									<a href="" class="social-info">
-										<span class="lnr lnr-move"></span>
-										<p class="hover-text">view more</p>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- single product -->
-					<div class="col-lg-3 col-md-6">
-						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/lp8.jpg" alt="">
-							<div class="product-details">
-								<h6>Kyrie 2 Low Spongebob Sandy Cheeks</h6>
-								<div class="price">
-									<h6>$279.00</h6>
-									<h6 class="l-through">$295.00</h6>
-								</div>
-								<div class="prd-bottom">
-
-									<a href="" class="social-info">
-										<span class="ti-bag"></span>
-										<p class="hover-text">add to bag</p>
-									</a>
-									<a href="" class="social-info">
-										<span class="lnr lnr-move"></span>
-										<p class="hover-text">view more</p>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
+					<?php endforeach; ?>
 				</div>
 			</div>
 		</div>
@@ -419,19 +221,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<div class="col-lg-6 text-center">
 						<div class="section-title">
 							<h1>Coming Products</h1>
-							<p>New Products for 2019</p>
+							<p>New Products for 2020</p>
 						</div>
 					</div>
 				</div>
 				<div class="row">
 					<!-- single product -->
+					<?php foreach($cProduct as $p):?>
 					<div class="col-lg-3 col-md-6">
 						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/cp1.jpg" alt="">
+							<img class="img-fluid" src="assets/img/product/<?php echo $p->gambar; ?>.jpg" alt="">
 							<div class="product-details">
-								<h6>Kyrie 2 Low Spongebob Mr Krabs</h6>
+								<h6><?php echo $p->name; ?></h6>
 								<div class="price">
-									<h6>$238.00</h6>
+									<h6>$<?php echo $p->harga; ?></h6>
 									<h6 class="l-through">$415.00</h6>
 								</div>
 								<div class="prd-bottom">
@@ -448,174 +251,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							</div>
 						</div>
 					</div>
-					<!-- single product -->
-					<div class="col-lg-3 col-md-6">
-						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/cp2.jpg" alt="">
-							<div class="product-details">
-								<h6>Nike Adapt BB Mag</h6>
-								<div class="price">
-									<h6>$1,160.00</h6>
-									<h6 class="l-through">$1,359.00</h6>
-								</div>
-								<div class="prd-bottom">
-
-									<a href="" class="social-info">
-										<span class="ti-bag"></span>
-										<p class="hover-text">add to bag</p>
-									</a>
-									<a href="" class="social-info">
-										<span class="lnr lnr-move"></span>
-										<p class="hover-text">view more</p>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- single product -->
-					<div class="col-lg-3 col-md-6">
-						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/cp3.jpg" alt="">
-							<div class="product-details">
-								<h6>Kobe A.D. NXT Black White</h6>
-								<div class="price">
-									<h6>$165.00</h6>
-									<h6 class="l-through">$188.00</h6>
-								</div>
-								<div class="prd-bottom">
-
-									<a href="" class="social-info">
-										<span class="ti-bag"></span>
-										<p class="hover-text">add to bag</p>
-									</a>
-									<a href="" class="social-info">
-										<span class="lnr lnr-move"></span>
-										<p class="hover-text">view more</p>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- single product -->
-					<div class="col-lg-3 col-md-6">
-						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/cp4.jpg" alt="">
-							<div class="product-details">
-								<h6>Under Armour Curry 5 Black Gold</h6>
-								<div class="price">
-									<h6>$139.99</h6>
-									<h6 class="l-through">$175.00</h6>
-								</div>
-								<div class="prd-bottom">
-
-									<a href="" class="social-info">
-										<span class="ti-bag"></span>
-										<p class="hover-text">add to bag</p>
-									</a>
-									<a href="" class="social-info">
-										<span class="lnr lnr-move"></span>
-										<p class="hover-text">view more</p>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- single product -->
-					<div class="col-lg-3 col-md-6">
-						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/cp5.jpg" alt="">
-							<div class="product-details">
-								<h6>Kobe 11 Elite Low BHM</h6>
-								<div class="price">
-									<h6>$255.00</h6>
-									<h6 class="l-through">$299.99</h6>
-								</div>
-								<div class="prd-bottom">
-
-									<a href="" class="social-info">
-										<span class="ti-bag"></span>
-										<p class="hover-text">add to bag</p>
-									</a>
-									<a href="" class="social-info">
-										<span class="lnr lnr-move"></span>
-										<p class="hover-text">view more</p>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- single product -->
-					<div class="col-lg-3 col-md-6">
-						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/cp6.jpg" alt="">
-							<div class="product-details">
-								<h6>Nike Mamba Rage Blue Nebula</h6>
-								<div class="price">
-									<h6>$70.39</h6>
-									<h6 class="l-through">$85.00</h6>
-								</div>
-								<div class="prd-bottom">
-
-									<a href="" class="social-info">
-										<span class="ti-bag"></span>
-										<p class="hover-text">add to bag</p>
-									</a>
-									<a href="" class="social-info">
-										<span class="lnr lnr-move"></span>
-										<p class="hover-text">view more</p>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- single product -->
-					<div class="col-lg-3 col-md-6">
-						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/cp7.jpg" alt="">
-							<div class="product-details">
-								<h6>KD 7 What the KD</h6>
-								<div class="price">
-									<h6>$229.99</h6>
-									<h6 class="l-through">$280.00</h6>
-								</div>
-								<div class="prd-bottom">
-
-									<a href="" class="social-info">
-										<span class="ti-bag"></span>
-										<p class="hover-text">add to bag</p>
-									</a>
-									<a href="" class="social-info">
-										<span class="lnr lnr-move"></span>
-										<p class="hover-text">view more</p>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- single product -->
-					<div class="col-lg-3 col-md-6">
-						<div class="single-product">
-							<img class="img-fluid" src="assets/img/product/cp8.jpg" alt="">
-							<div class="product-details">
-								<h6>Kobe 8 Mambacurial</h6>
-								<div class="price">
-									<h6>$300.99</h6>
-									<h6 class="l-through">$375.00</h6>
-								</div>
-								<div class="prd-bottom">
-
-									<a href="" class="social-info">
-										<span class="ti-bag"></span>
-										<p class="hover-text">add to bag</p>
-									</a>
-									<a href="" class="social-info">
-										<span class="lnr lnr-move"></span>
-										<p class="hover-text">view more</p>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
+					<?php endforeach;?>
 				</div>
 			</div>
 		</div>
