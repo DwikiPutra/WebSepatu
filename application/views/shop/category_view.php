@@ -115,7 +115,7 @@
 						<a href="#" class="prev-arrow"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a>
 						<a href="#" class="active">1</a>
 						<a href="#">2</a>
-						<a href="#" class="dot-dot"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+						<a class="dot-dot"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
 						<a href="#">5</a>
 						<a href="#" class="next-arrow"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 					</div>
@@ -137,11 +137,11 @@
 									</div>
 									<div class="prd-bottom">
 
-										<a href="" class="social-info">
+										<a href="#" class="social-info">
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
-										<a href="" class="social-info">
+										<a href=<?php echo base_url('login/detail_view_Fly_Bright') ?> class="social-info">
 											<span class="lnr lnr-move"></span>
 											<p class="hover-text">view more</p>
 										</a>
@@ -161,11 +161,11 @@
 									</div>
 									<div class="prd-bottom">
 
-										<a href="" class="social-info">
+										<a href="#" class="social-info">
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
-										<a href="" class="social-info">
+										<a href="#" class="social-info">
 											<span class="lnr lnr-move"></span>
 											<p class="hover-text">view more</p>
 										</a>
@@ -185,11 +185,11 @@
 									</div>
 									<div class="prd-bottom">
 
-										<a href="" class="social-info">
+										<a href="#" class="social-info">
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
-										<a href="" class="social-info">
+										<a href="#" class="social-info">
 											<span class="lnr lnr-move"></span>
 											<p class="hover-text">view more</p>
 										</a>
@@ -209,11 +209,11 @@
 									</div>
 									<div class="prd-bottom">
 
-										<a href="" class="social-info">
+										<a href="#" class="social-info">
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
-										<a href="" class="social-info">
+										<a href="#" class="social-info">
 											<span class="lnr lnr-move"></span>
 											<p class="hover-text">view more</p>
 										</a>
@@ -233,11 +233,11 @@
 									</div>
 									<div class="prd-bottom">
 
-										<a href="" class="social-info">
+										<a href="#" class="social-info">
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
-										<a href="" class="social-info">
+										<a href="#" class="social-info">
 											<span class="lnr lnr-move"></span>
 											<p class="hover-text">view more</p>
 										</a>
@@ -257,11 +257,11 @@
 									</div>
 									<div class="prd-bottom">
 
-										<a href="" class="social-info">
+										<a href="#" class="social-info">
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
-										<a href="" class="social-info">
+										<a href="#" class="social-info">
 											<span class="lnr lnr-move"></span>
 											<p class="hover-text">view more</p>
 										</a>

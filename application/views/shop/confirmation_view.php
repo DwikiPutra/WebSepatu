@@ -77,7 +77,7 @@
 									<p>KD 6 All Star</p>
 								</td>
 								<td>
-									<h5>x 01</h5>
+									<h6>x 01</h6>
 								</td>
 								<td>
 									<p>$170.00</p>
@@ -88,7 +88,7 @@
 									<p>Kobe A.D. NXT Wolf Grey</p>
 								</td>
 								<td>
-									<h5>x 03</h5>
+									<h6>x 03</h6>
 								</td>
 								<td>
 									<p>$555.00</p>
@@ -96,7 +96,7 @@
 							</tr>
 							<tr>
 								<td>
-									<h4>Subtotal</h4>
+									<h6>Subtotal</h6>
 								</td>
 								<td>
 									<h5></h5>
@@ -107,7 +107,7 @@
 							</tr>
 							<tr>
 								<td>
-									<h4>Shipping</h4>
+									<h6>Shipping</h6>
 								</td>
 								<td>
 									<h5></h5>
@@ -124,7 +124,7 @@
 									<h5></h5>
 								</td>
 								<td>
-									<p>$805.99</p>
+									<h4>$805.99</h4>
 								</td>
 							</tr>
 						</tbody>
