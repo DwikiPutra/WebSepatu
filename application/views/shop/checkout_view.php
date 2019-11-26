@@ -150,14 +150,6 @@
                                     <label for="f-option2">Create an account?</label>
                                 </div>
                             </div>
-                            <div class="col-md-12 form-group">
-                                <div class="creat_account">
-                                    <h3>Shipping Details</h3>
-                                    <input type="checkbox" id="f-option3" name="selector">
-                                    <label for="f-option3">Ship to a different address?</label>
-                                </div>
-                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Order Notes"></textarea>
-                            </div>
                         </form>
                     </div>
                     <div class="col-lg-4">
