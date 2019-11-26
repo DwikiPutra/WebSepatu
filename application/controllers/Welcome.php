@@ -20,6 +20,26 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('home');
+		$lProduct = $this->getLatestPro();
+		$cProduct = $this->getComingPro();
+
+		$data = [
+			'lProduct' => $lProduct,
+			'cProduct' => $cProduct 
+		];
+
+		$this->load->view('home', $data);
+	}
+
+	public function getLatestPro()
+	{
+		$this->load->model('Product_model');
+		return $this->Product_model->getLatestProduct()->result();
+	}
+
+	public function getComingPro()
+	{
+		$this->load->model('Product_model');
+		return $this->Product_model->getComingProduct()->result();
 	}
 }
