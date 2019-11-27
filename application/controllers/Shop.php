@@ -5,7 +5,10 @@ class Shop extends CI_Controller {
 
 	public function category()
 	{
-		$this->load->view('shop/category_view');
+		$this->load->model('Product_model');
+		$data['model'] = $this->Product_model->page();
+		
+		$this->load->view('shop/category_view', $data);
 	}
 	
 	public function cart()
