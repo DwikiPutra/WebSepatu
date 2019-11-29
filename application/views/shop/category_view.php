@@ -132,7 +132,7 @@
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
-										<a href=<?php echo base_url('login/detail_view_Fly_Bright') ?> class="social-info">
+										<a href="<?php echo base_url(). "shop/detail/". $data->product_id."/". str_replace(" ", "-", $data->name); ?> "class="social-info">
 											<span class="lnr lnr-move"></span>
 											<p class="hover-text">view more</p>
 										</a>
