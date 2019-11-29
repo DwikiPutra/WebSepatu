@@ -16,7 +16,7 @@ class Login extends CI_Controller {
 	public function tracking()
 	{
 		$this->load->view('tracking_view');
-    }
+    } 
     
     public function form()
     {
