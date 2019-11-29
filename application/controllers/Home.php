@@ -5,6 +5,6 @@ class Home extends CI_Controller {
     // main page website
     public function index   ()
     {
-        $data = array('title' => 'Web Sepatu - Ecommerce', 'isi' => 'home');
+        $data = array('title' => 'Web Sepatu - E-commerce', 'isi' => 'home');
     }
 }
