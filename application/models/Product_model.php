@@ -40,4 +40,9 @@ class Product_model extends CI_Model{
 
         return $data;
     }
+
+    public function getDataById($id){
+        $query = $this->db->query('SELECT * FROM products WHERE product_id = '. $id);
+        return $query->row();
+    }
 }

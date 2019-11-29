@@ -21,9 +21,12 @@ class Shop extends CI_Controller {
 		$this->load->view('shop/checkout_view');
 	}
 	
-	public function detail()
+	public function detail($id, $name)
 	{
-		$this->load->view('shop/detail_view');
+		$this->load->model('Product_model');
+		$data['product'] = $this->Product_model->getDataById($id);
+
+		$this->load->view('shop/detail_view', $data);
 	}
 
 	public function confirmation()
