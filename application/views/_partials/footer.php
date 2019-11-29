@@ -39,6 +39,7 @@
 						<div class="footer-social d-flex align-items-center">
 							<a href="https://www.facebook.com/#"><i class="fa fa-facebook"></i></a>
 							<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+							<a href="https://github.com/105217011-Dwiki/WebSepatu/"><i class="fa fa-github"></i></a>
 						</div>
 					</div>
 				</div>
