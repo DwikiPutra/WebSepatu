@@ -24,7 +24,7 @@ class Login extends CI_Controller {
         $password = $this->input->post('password');
         $data = array(
             'name' => $name,
-            'email' => 'tes@gmail.com',
+            'email' => 'febrianmario76@gmail.com',
             'password' => $password
         );
         $this->load->model('Login_model');
