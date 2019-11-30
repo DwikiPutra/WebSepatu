@@ -25,10 +25,10 @@
 					<div class="details_item">
 						<h4>Order Info</h4>
 						<ul class="list">
-							<li><a href="#"><span>Order number</span> : 60606</a></li>
-							<li><a href="#"><span>Date</span> : Indonesia</a></li>
-							<li><a href="#"><span>Total</span> : $805.99</a></li>
-							<li><a href="#"><span>Payment method</span> : Check payments</a></li>
+							<li><a><span>Order number</span> : 60606</a></li>
+							<li><a><span>Date</span> : Indonesia</a></li>
+							<li><a><span>Total</span> : $805.99</a></li>
+							<li><a><span>Payment method</span> : Check payments</a></li>
 						</ul>
 					</div>
 				</div>
@@ -36,10 +36,10 @@
 					<div class="details_item">
 						<h4>Billing Address</h4>
 						<ul class="list">
-							<li><a href="#"><span>Street</span> : U3/56</a></li>
-							<li><a href="#"><span>City</span> : Indonesia</a></li>
-							<li><a href="#"><span>Country</span> : Jakarta Selatan</a></li>
-							<li><a href="#"><span>Postcode </span> : 36952</a></li>
+							<li><a><span>Street</span> : U3/56</a></li>
+							<li><a><span>City</span> : Indonesia</a></li>
+							<li><a><span>Country</span> : Jakarta Selatan</a></li>
+							<li><a><span>Postcode </span> : 36952</a></li>
 						</ul>
 					</div>
 				</div>
@@ -47,10 +47,10 @@
 					<div class="details_item">
 						<h4>Shipping Address</h4>
 						<ul class="list">
-							<li><a href="#"><span>Street</span> : U3/56</a></li>
-							<li><a href="#"><span>City</span> : Indonesia</a></li>
-							<li><a href="#"><span>Country</span> : Jakarta</a></li>
-							<li><a href="#"><span>Postcode </span> : 105217</a></li>
+							<li><a><span>Street</span> : U3/56</a></li>
+							<li><a><span>City</span> : Indonesia</a></li>
+							<li><a><span>Country</span> : Jakarta</a></li>
+							<li><a><span>Postcode </span> : 105217</a></li>
 						</ul>
 					</div>
 				</div>

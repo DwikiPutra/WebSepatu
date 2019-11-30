@@ -72,7 +72,6 @@
     
     <?php $this->load->view("_partials/footer.php")?>
 
-
 	<!--================Contact Success and Error message Area =================-->
 	<div id="success" class="modal modal-message fade" role="dialog">
 		<div class="modal-dialog">
@@ -103,7 +102,6 @@
 		</div>
 	</div>
 	<!--================End Contact Success and Error message Area =================-->
-
 
 	<?php $this->load->view("_partials/js.php")?>
 </body>

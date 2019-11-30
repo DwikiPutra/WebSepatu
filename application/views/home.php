@@ -191,11 +191,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									</div>
 									<div class="prd-bottom">
 										<a class="social-info">
-											<span class="ti-bag"></span>
+											<span class="ti-bag"></span> <!-- Ini Belum Aktif -->
 											<p class="hover-text">add to bag</p>
 										</a>
 										<a class="social-info">
-											<span class="lnr lnr-move"></span>
+											<span class="lnr lnr-move"></span> <!-- Ini sama kyak kategori view more -->
 											<p class="hover-text">view more</p>
 										</a>
 									</div>

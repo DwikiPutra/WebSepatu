@@ -41,10 +41,10 @@
 								<li class="main-nav-list child"><a href="#">More<span class="number">(15)</span></a></li> <!-- href ke kategori more page running shoes -->
 							</ul>
 						</li>
-						<li class="main-nav-list"><a data-toggle="collapse" href="#cooking" aria-expanded="false" aria-controls="cooking"><span
+						<li class="main-nav-list"><a data-toggle="collapse" href="#" aria-expanded="false"><span
 								 class="lnr lnr-arrow-right"></span>NMD<span class="number">(26)</span></a>
 						</li>
-						<li class="main-nav-list"><a data-toggle="collapse" href="#beverages" aria-expanded="false" aria-controls="beverages"><span
+						<li class="main-nav-list"><a data-toggle="collapse" href="#" aria-expanded="false"><span
 								 class="lnr lnr-arrow-right"></span>More<span class="number">(20)</span></a>
 						</li>
 					</ul>
@@ -95,15 +95,15 @@
 					<div class="sorting">
 						<select>
 							<option value="1">Default sorting</option>
-							<option value="1">Ascending</option>
-							<option value="1">Descending</option>
+							<option value="2">Ascending</option>
+							<option value="3">Descending</option>
 						</select>
 					</div>
 					<div class="sorting mr-auto">
 						<select>
 							<option value="1">Show 6</option>
-							<option value="1">Show 9</option>
-							<option value="1">Show 12</option>
+							<option value="2">Show 9</option>
+							<option value="3">Show 12</option>
 						</select>
 					</div>
 					<div class="pagination">
@@ -128,7 +128,7 @@
 									</div>
 									<div class="prd-bottom">
 
-										<a href="#" class="social-info">
+										<a href="#" class="social-info"> <!-- functionalnya belum -->
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>

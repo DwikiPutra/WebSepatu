@@ -248,21 +248,21 @@
 									<div class="rating_list">
 										<h3>Based on 3 Reviews</h3>
 										<ul class="list">
-											<li>5 Star 	<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i> 01</li>
-											<li>4 Star 	<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i> 01</li>
-											<li>3 Star 	<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i> 01</li>
-											<li>2 Star 	<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i> 01</li>
-											<li>1 Star 	<i class="fa fa-star"></i> 01</li>
+											<li><i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i> 40</li>
+											<li><i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i> 05</li>
+											<li><i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i> 00</li>
+											<li><i class="fa fa-star"></i>
+												<i class="fa fa-star"></i> 00</li>
+											<li><i class="fa fa-star"></i> 00</li>
 										</ul>
 									</div>
 								</div>
