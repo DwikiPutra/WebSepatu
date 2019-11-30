@@ -21,32 +21,14 @@
         <div class="container">
             <div class="returning_customer">
                 <div class="check_title">
-                    <h2>Returning Customer? <a href="#">Click here to login</a></h2>
+                    <h2>Returning Customer? <a href=<?php echo base_url('login/index')?>>Click here to login</a></h2>
                 </div>
                 <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new
                     customer, please proceed to the Billing & Shipping section.</p>
-                <form class="row contact_form" action="#" method="post" novalidate="novalidate">
-                    <div class="col-md-6 form-group p_star">
-                        <input type="text" class="form-control" id="name" name="name">
-                        <span class="placeholder" data-placeholder="Username or Email"></span>
-                    </div>
-                    <div class="col-md-6 form-group p_star">
-                        <input type="password" class="form-control" id="password" name="password">
-                        <span class="placeholder" data-placeholder="Password"></span>
-                    </div>
-                    <div class="col-md-12 form-group">
-                        <button type="submit" value="submit" class="primary-btn">login</button>
-                        <div class="creat_account">
-                            <input type="checkbox" id="f-option" name="selector">
-                            <label for="f-option">Remember me</label>
-                        </div>
-                        <a class="lost_pass" href="#">Lost your password?</a>
-                    </div>
-                </form>
             </div>
             <div class="cupon_area">
                 <div class="check_title">
-                    <h2>Have a coupon? <a href="#">Click here to enter your code</a></h2>
+                    <h2>Have a coupon?</h2>
                 </div>
                 <input type="text" placeholder="Enter coupon code">
                 <a class="tp_btn" href="#">Apply Coupon</a>
@@ -79,8 +61,7 @@
                                 <select class="country_select">
 									<option value="" selected="selected">Select Country</option> 
 									<option value="United Kingdom">United Kingdom</option> 
-									<option value="Australia">Australia</option> 
-									<option value="Austria">Austria</option> 
+									<option value="Australia">Australia</option>
 									<option value="Belgium">Belgium</option> 
 									<option value="Brazil">Brazil</option> 
 									<option value="Brunei Darussalam">Brunei Darussalam</option> 
@@ -88,43 +69,17 @@
 									<option value="China">China</option> 
 									<option value="Denmark">Denmark</option> 
 									<option value="Finland">Finland</option> 
-									<option value="France">France</option> 
-									<option value="Georgia">Georgia</option> 
+									<option value="France">France</option>
 									<option value="Germany">Germany</option> 
 									<option value="Hong Kong">Hong Kong</option> 
 									<option value="Hungary">Hungary</option> 
 									<option value="Iceland">Iceland</option> 
 									<option value="India">India</option> 
-									<option value="Indonesia">Indonesia</option> 
-									<option value="Iraq">Iraq</option> 
-									<option value="Ireland">Ireland</option> 
-									<option value="Israel">Israel</option> 
-									<option value="Italy">Italy</option> 
-									<option value="Jamaica">Jamaica</option> 
-									<option value="Japan">Japan</option> 
-									<option value="Jordan">Jordan</option> 
-									<option value="Kazakhstan">Kazakhstan</option> 
-									<option value="Kenya">Kenya</option> 
-									<option value="Macao">Macao</option> 
-									<option value="Madagascar">Madagascar</option> 
-									<option value="Netherlands">Netherlands</option> 
-									<option value="New Caledonia">New Caledonia</option> 
-									<option value="New Zealand">New Zealand</option> 
-									<option value="Norway">Norway</option> 
-									<option value="Oman">Oman</option> 
-									<option value="Panama">Panama</option> 
-									<option value="Paraguay">Paraguay</option> 
-									<option value="Peru">Peru</option> 
-									<option value="Philippines">Philippines</option> 
-									<option value="Poland">Poland</option> 
-									<option value="Portugal">Portugal</option> 
-									<option value="Qatar">Qatar</option> 
+									<option value="Indonesia">Indonesia</option>
+									<option value="Japan">Japan</option>
+									<option value="Netherlands">Netherlands</option>
 									<option value="Saudi Arabia">Saudi Arabia</option> 
 									<option value="Singapore">Singapore</option> 
-									<option value="Spain">Spain</option> 
-									<option value="Thailand">Thailand</option> 
-									<option value="United Arab Emirates">United Arab Emirates</option> 
-									<option value="United Kingdom">United Kingdom</option> 
 									<option value="United States">United States</option> 
                                 </select>
                             </div>
@@ -151,14 +106,14 @@
                         <div class="order_box">
                             <h2>Your Order</h2>
                             <ul class="list">
-                                <li><a href="#">Product <span>Total</span></a></li>
-                                <li><a href="#">KD 6 All Star <span class="middle">x 01</span> <span class="last">$170.00</span></a></li>
-                                <li><a href="#">NXT Wolf Grey <span class="middle">x 03</span> <span class="last">$555.00</span></a></li>
+                                <li><a>Product <span>Total</span></a></li>
+                                <li><a>KD 6 All Star <span class="middle">x 01</span> <span class="last">$170.00</span></a></li>
+                                <li><a>NXT Wolf Grey <span class="middle">x 03</span> <span class="last">$555.00</span></a></li>
                             </ul>
                             <ul class="list list_2">
-                                <li><a href="#">Subtotal <span>$725.00</span></a></li>
-                                <li><a href="#">Shipping <span>$8.99</span></a></li>
-                                <li><a href="#">Total <span>$805.99</span></a></li>
+                                <li><a>Subtotal <span>$725.00</span></a></li>
+                                <li><a>Shipping <span>$8.99</span></a></li>
+                                <li><a>Total <span>$805.99</span></a></li>
                             </ul>
                             <div class="payment_item">
                                 <div class="radion_btn">
@@ -182,9 +137,9 @@
                             <div class="creat_account">
                                 <input type="checkbox" id="f-option4" name="selector">
                                 <label for="f-option4">I’ve read and accept the </label>
-                                <a href="#">terms & conditions*</a>
+                                <a>terms & conditions*</a>
                             </div>
-                            <a class="primary-btn" href="#">Proceed to Paypal</a> <!-- href ke confirmation-->
+                            <a class="primary-btn" href=<?php echo base_url('shop/confirmation') ?>>Proceed to Paypal</a> <!-- href ke confirmation-->
                         </div>
                     </div>
                 </div>

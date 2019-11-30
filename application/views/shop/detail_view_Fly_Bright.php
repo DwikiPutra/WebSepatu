@@ -61,7 +61,7 @@
 	</div>
 	<!--================End Single Product Area =================-->
 
-	<!--=================Product Description Area =================-->
+	<!--================Product Description Area =================-->
 	<section class="product_description_area">
 		<div class="container">
 			<ul class="nav nav-tabs" id="myTab" role="tablist">

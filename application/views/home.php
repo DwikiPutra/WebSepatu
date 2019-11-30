@@ -18,10 +18,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<div class="banner-content">
 									<h1>Nike New <br>Collection!</h1>
 									<h5>Nike Zoom Soldier VIII Flyease</h5>
-									<div class="add-bag d-flex align-items-center">
-										<a class="add-btn" href=""><span class="lnr lnr-cross"></span></a>
-										<span class="add-text text-uppercase">Add to Bag</span>
-									</div>
 								</div>
 							</div>
 							<div class="col-lg-7">
@@ -36,10 +32,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<div class="banner-content">
 									<h1>Under Armour New <br>Collection!</h1>
 									<h5>Under Armour Curry 5 Low Black Gold</h5>
-									<div class="add-bag d-flex align-items-center">
-										<a class="add-btn" href=""><span class="lnr lnr-cross"></span></a>
-										<span class="add-text text-uppercase">Add to Bag</span>
-									</div>
 								</div>
 							</div>
 							<div class="col-lg-7">
@@ -198,11 +190,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 										<h6 class="l-through">$100.00</h6>
 									</div>
 									<div class="prd-bottom">
-										<a href="" class="social-info">
+										<a class="social-info">
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
-										<a href="" class="social-info">
+										<a class="social-info">
 											<span class="lnr lnr-move"></span>
 											<p class="hover-text">view more</p>
 										</a>
@@ -239,11 +231,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								</div>
 								<div class="prd-bottom">
 
-									<a href="" class="social-info">
-										<span class="ti-bag"></span>
-										<p class="hover-text">add to bag</p>
-									</a>
-									<a href="" class="social-info">
+									<a class="social-info">
 										<span class="lnr lnr-move"></span>
 										<p class="hover-text">view more</p>
 									</a>
@@ -271,15 +259,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="col-lg-12">
 							<div class="row clock-wrap">
 								<div class="col clockinner1 clockinner">
-									<h1 class="days">150</h1>
+									<h1 class="days">19</h1>
 									<span class="smalltext">Days</span>
 								</div>
 								<div class="col clockinner clockinner1">
-									<h1 class="hours">23</h1>
+									<h1 class="hours">05</h1>
 									<span class="smalltext">Hours</span>
 								</div>
 								<div class="col clockinner clockinner1">
-									<h1 class="minutes">47</h1>
+									<h1 class="minutes">20</h1>
 									<span class="smalltext">Mins</span>
 								</div>
 								<div class="col clockinner clockinner1">
@@ -289,7 +277,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							</div>
 						</div>
 					</div>
-					<a href="" class="primary-btn">Shop Now</a>
+					<a href=<?php echo base_url('shop/category') ?> class="primary-btn">Shop Now</a>
 				</div>
 				<div class="col-lg-6 no-padding exclusive-right">
 					<div class="active-exclusive-product-slider">
@@ -302,10 +290,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<h6 class="l-through">$140.00</h6>
 								</div>
 								<h4>Mamba Focus Black</h4>
-								<div class="add-bag d-flex align-items-center justify-content-center">
-									<a class="add-btn" href=""><span class="ti-bag"></span></a>
-									<span class="add-text text-uppercase">Add to Bag</span>
-								</div>
 							</div>
 						</div>
 						<!-- single exclusive carousel -->
@@ -317,10 +301,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<h6 class="l-through">$300.00</h6>
 								</div>
 								<h4>Kobe 11 Elite GCR Great Career Recall</h4>
-								<div class="add-bag d-flex align-items-center justify-content-center">
-									<a class="add-btn" href=""><span class="ti-bag"></span></a>
-									<span class="add-text text-uppercase">Add to Bag</span>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -334,13 +314,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<section class="brand-area section_gap">
 		<div class="container">
 			<div class="row">
-				<a class="col single-img" href="#"> <!-- href ke kategori nike -->
+				<a class="col single-img"> <!-- href ke kategori nike -->
 					<img class="img-fluid d-block mx-auto" src="assets/img/brand/1.png" alt="">
 				</a>
-				<a class="col single-img" href="#"> <!-- href ke kategori under armour -->
+				<a class="col single-img"> <!-- href ke kategori under armour -->
 					<img class="img-fluid d-block mx-auto" src="assets/img/brand/2.png" alt="">
 				</a>
-				<a class="col single-img" href="#"> <!-- href ke kategori adidas -->
+				<a class="col single-img"> <!-- href ke kategori adidas -->
 					<img class="img-fluid d-block mx-auto" src="assets/img/brand/3.png" alt="">
 				</a>
 			</div>
