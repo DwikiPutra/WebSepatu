@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<?php $this->load->view("_partials/navbar.php") ?>
 	
-	<!-- start banner Area -->
+	<!--- start banner Area -->
 	<section class="banner-area">
 		<div class="container">
 			<div class="row fullscreen align-items-center justify-content-start">
