@@ -52,7 +52,7 @@
 							 class="reduced items-count" type="button"><i class="lnr lnr-chevron-down"></i></button>
 						</div>
 						<div class="card_area d-flex align-items-center">
-							<a class="primary-btn" href="#">Add to Cart</a>
+							<a class="primary-btn" href="#">Add to Cart</a> <!-- Menuju Keranjang -->
 						</div>
 					</div>
 				</div>
@@ -72,10 +72,13 @@
 					<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
 					 aria-selected="false">Specification</a>
 				</li>
+				<!-- Ini Ku Hapus Boleh? -->
+				<!--
 				<li class="nav-item">
 					<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
 					 aria-selected="false">Comments</a>
 				</li>
+				-->
 				<li class="nav-item">
 					<a class="nav-link active" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review"
 					 aria-selected="false">Reviews</a>
@@ -159,6 +162,7 @@
 						</table>
 					</div>
 				</div>
+				<!-- Klau Iya Ini Dihapus Juga (166-239)--> 
 				<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
 					<div class="row">
 						<div class="col-lg-6">
@@ -316,6 +320,7 @@
 								</div>
 							</div>
 						</div>
+						<!-- Ini Juga Agak Ganjal (324-362) -->
 						<div class="col-lg-6">
 							<div class="review_box">
 								<h4>Add a Review</h4>

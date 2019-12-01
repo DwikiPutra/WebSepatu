@@ -32,7 +32,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-4"> <!-- Ini Sesuai Dengan class="col-lg-8" -->
 					<div class="details_item">
 						<h4>Billing Address</h4>
 						<ul class="list">
@@ -43,6 +43,7 @@
 						</ul>
 					</div>
 				</div>
+				<!-- Ini Bingung Dapat Addressnya dari mana mulai dari 47-58 -->
 				<div class="col-lg-4">
 					<div class="details_item">
 						<h4>Shipping Address</h4>
@@ -102,7 +103,7 @@
 							</tr>
 							<tr>
 								<td>
-									<h6>Shipping</h6>
+									<h6>Shipping</h6> <!-- Ini Default Aja Harganya 8.99 -->
 								</td>
 								<td>
 									<h5></h5>

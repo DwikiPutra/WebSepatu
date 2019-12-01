@@ -42,6 +42,7 @@
 						</div>
 					</div>
 				</div>
+				<!-- Optional Si Mau Dihapus Atau Ngga
 				<div class="col-lg-9">
 					<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
 						<div class="col-md-6">
@@ -65,13 +66,14 @@
 						</div>
 					</form>
 				</div>
+				-->
 			</div>
 		</div>
 	</section>
 	<!--================Contact Area =================-->
     
     <?php $this->load->view("_partials/footer.php")?>
-
+	<!-- Ini Ngga jelas Mulai 77-106 -->
 	<!--================Contact Success and Error message Area =================-->
 	<div id="success" class="modal modal-message fade" role="dialog">
 		<div class="modal-dialog">

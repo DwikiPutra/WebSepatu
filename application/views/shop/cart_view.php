@@ -35,7 +35,7 @@
                                 <td>
                                     <div class="media">
                                         <div class="d-flex">
-                                            <img src="img/cart1.jpg" alt="">
+                                            <img src="img/cart1.jpg" alt=""> <!-- Belum Aktif -->
                                         </div>
                                         <div class="media-body">
                                             <p>KD 6 All Star</p>
@@ -63,7 +63,7 @@
                                 <td>
                                     <div class="media">
                                         <div class="d-flex">
-                                            <img src="img/cart2.jpg" alt="">
+                                            <img src="img/cart2.jpg" alt=""> <!-- Belum Aktif -->
                                         </div>
                                         <div class="media-body">
                                             <p>Kobe A.D. NXT Wolf Grey</p>
@@ -100,8 +100,8 @@
                                 <td>
                                     <div class="cupon_text d-flex align-items-center">
                                         <input type="text" placeholder="Coupon Code">
-                                        <a class="primary-btn" href="#">Apply</a> 
-                                        <a class="gray_btn" href="#">Close Coupon</a>
+                                        <a class="primary-btn">Apply</a> 
+                                        <a class="gray_btn">Close Coupon</a>
                                     </div>
                                 </td>
                             </tr>

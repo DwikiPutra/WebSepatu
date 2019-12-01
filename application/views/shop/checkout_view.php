@@ -95,10 +95,13 @@
                                 <input type="text" class="form-control" id="zip" name="zip" placeholder="Postcode/ZIP">
                             </div>
                             <div class="col-md-12 form-group">
+                                <!-- Ini Dipakai Ngga?
                                 <div class="creat_account">
                                     <input type="checkbox" id="f-option2" name="selector">
                                     <label for="f-option2">Create an account?</label>
                                 </div>
+                                --> <!-- Pakai ini -->
+                                <a class="primary-btn" href="#">Confirm</a> <!-- Optional si Sa, Atau Ini. Klau Aku Ini -->
                             </div>
                         </form>
                     </div>
@@ -115,15 +118,6 @@
                                 <li><a>Shipping <span>$8.99</span></a></li>
                                 <li><a>Total <span>$805.99</span></a></li>
                             </ul>
-                            <div class="payment_item">
-                                <div class="radion_btn">
-                                    <input type="radio" id="f-option5" name="selector">
-                                    <label for="f-option5">Check payments</label>
-                                    <div class="check"></div>
-                                </div>
-                                <p>Please send a check to Store Name, Store Street, Store Town, Store State / County,
-                                    Store Postcode.</p>
-                            </div>
                             <div class="payment_item active">
                                 <div class="radion_btn">
                                     <input type="radio" id="f-option6" name="selector">

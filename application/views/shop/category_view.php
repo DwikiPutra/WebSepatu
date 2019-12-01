@@ -112,7 +112,7 @@
 				</div>
 				<!-- End Filter Bar -->
 				
-				<!-- Start Best Seller -->
+				<!-- Start Best Seller --> 
 				<section class="lattest-product-area pb-40 category-list">
 					<div class="row">
 						<!-- single product -->
@@ -134,7 +134,7 @@
 										</a>
 										<a href="<?php echo base_url(). "shop/detail/". $data->product_id."/". str_replace(" ", "-", $data->name); ?> "class="social-info">
 											<span class="lnr lnr-move"></span>
-											<p class="hover-text">view more</p>
+											<p class="hover-text">view more</p> <!-- Gambar BRONAX Men's Stylish Graffiti Eror Sa :( -->
 										</a>
 									</div>
 								</div>
