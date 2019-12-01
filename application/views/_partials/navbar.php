@@ -25,14 +25,18 @@
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Pages</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href=<?php echo base_url('login/index')?>>Login</a></li>
+									<?php if($this->session->username): ?>
+										<li class="nav-item"><a class="nav-link" href=<?php echo base_url('login/logout')?>>Logout</a></li>
+									<?php else: ?>
+										<li class="nav-item"><a class="nav-link" href=<?php echo base_url('login/index')?>>Login</a></li>
+									<?php endif; ?>
 									<li class="nav-item"><a class="nav-link" href=<?php echo base_url('login/tracking')?>>Tracking</a></li>
 								</ul>
 							</li>
 							<li class="nav-item"><a class="nav-link" href=<?php echo base_url('contact/kontak')?>>Contact</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li class="nav-item"><a href=<?php echo base_url('shop/cart') ?> class="cart"><span class="ti-bag"></span></a></li>
+							<li class="nav-item"><a href=<?php if($this->session->username){echo base_url('shop/cart');}else{echo base_url('login/index');} ?> class="cart"><span class="ti-bag"></span></a></li>
 							<li class="nav-item">
 								<button class="search"><span class="lnr lnr-magnifier" id="search"></span></button>
 							</li>

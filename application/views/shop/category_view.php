@@ -128,7 +128,7 @@
 									</div>
 									<div class="prd-bottom">
 
-										<a href="#" class="social-info"> <!-- functionalnya belum -->
+										<a href=<?php if($this->session->username){echo base_url('shop/cart');}else{echo base_url('login/index');} ?> class="social-info"> <!-- functionalnya belum -->
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>

@@ -26,18 +26,22 @@
 				<div class="col-lg-6">
 					<div class="login_form_inner">
 						<h3>Register</h3>
-						<form class="row login_form" action="<?php echo base_url('login/form')?>" method="post" id="contactForm" novalidate="novalidate">
+						<form class="row login_form" action="<?php echo base_url('login/formRegister')?>" method="post" id="contactForm" novalidate="novalidate">
 							<div class="col-md-12 form-group">
-								<input type="text" class="form-control" id="name" name="name" placeholder="Username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Username'">
+								<input type="text" class="form-control" value="<?php echo set_value('name');?>" id="name" name="name" placeholder="Username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Username'">
+								<?php echo form_error('name'); ?>
 							</div>
                             <div class="col-md-12 form-group">
-								<input type="text" class="form-control" id="name" name="email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Username'">
+								<input type="text" class="form-control" value="<?php echo set_value('email');?>"id="email" name="email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'">
+								<?php echo form_error('email'); ?>
 							</div>
 							<div class="col-md-12 form-group">
-								<input type="password" class="form-control" id="name" name="password" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
+								<input type="password" class="form-control" id="pass" name="password" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
+								<?php echo form_error('password'); ?>
 							</div>
 							<div class="col-md-12 form-group">
-                                <input type="password" class="form-control" id="name" name="password" placeholder="Confirm Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
+                                <input type="password" class="form-control" id="passconf" name="passwordconf" placeholder="Confirm Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
+								<?php echo form_error('passwordconf'); ?>
 							</div>
 							<div class="col-md-12 form-group">
 								<button type="submit" value="submit" class="primary-btn">Create</button>
