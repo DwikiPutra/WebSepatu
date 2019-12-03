@@ -36,7 +36,7 @@
 							<li class="nav-item"><a class="nav-link" href=<?php echo base_url('contact/kontak')?>>Contact</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li class="nav-item"><a href=<?php if($this->session->username){echo base_url('shop/cart');}else{echo base_url('login/index');} ?> class="cart"><span class="ti-bag"></span></a></li>
+							<li class="nav-item"><a href=<?php if($this->session->username){echo base_url('shop/cart')."/". $this->session->userid;}else{echo base_url('login/index');} ?> class="cart"><span class="ti-bag"></span></a></li>
 							<li class="nav-item">
 								<button class="search"><span class="lnr lnr-magnifier" id="search"></span></button>
 							</li>

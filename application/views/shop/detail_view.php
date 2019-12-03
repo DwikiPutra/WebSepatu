@@ -43,17 +43,25 @@
 						</ul>
 						<p>Nike Zoom Fly Flyknit Men's Running Shoe is built for record-breaking speed. 
 								The Flyknit upper delivers ultra-lightweight support that fits like a glove.</p>
-						<div class="product_count">
-							<label for="qty">Quantity:</label>
-							<input type="text" name="qty" id="sst" maxlength="12" value="1" title="Quantity:" class="input-text qty">
-							<button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
-							 class="increase items-count" type="button"><i class="lnr lnr-chevron-up"></i></button>
-							<button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
-							 class="reduced items-count" type="button"><i class="lnr lnr-chevron-down"></i></button>
-						</div>
-						<div class="card_area d-flex align-items-center">
-							<a class="primary-btn" href="#">Add to Cart</a> <!-- Menuju Keranjang -->
-						</div>
+						<form action="<?php echo base_url('shop/addCart')?>" method="post">
+							<div class="product_count">
+								<label for="qty">Quantity:</label>
+								<input type="text" name="qty" id="sst" value="1" title="Quantity:" class="input-text qty">
+								<button onclick="var result = document.getElementById('sst'); var sst = result.value; var max = <?php echo $product->stok;?>; if( !isNaN( sst ) &amp;&amp; sst < max) result.value++;return false;"
+								class="increase items-count" type="button"><i class="lnr lnr-chevron-up"></i></button>
+								<button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
+								class="reduced items-count" type="button"><i class="lnr lnr-chevron-down"></i></button>
+								<input type="hidden" name="id_product" value="<?php echo $product->product_id?>">
+								<input type="hidden" name="id_user" value="<?php echo $this->session->userdata('userid')?>">
+							</div>
+							<div class="card_area d-flex align-items-center">
+							<?php if($this->session->username):?>
+								<button type="submit" value="submit" class="primary-btn">Add to Cart</button>
+							<?php else:?>
+								<a class="primary-btn" href="<?php echo base_url();?>/login/index">Add to Cart</a>
+							<?php endif; ?>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
