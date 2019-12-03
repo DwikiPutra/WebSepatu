@@ -124,17 +124,21 @@
 									<h6><?php echo $data->name;?></h6>
 									<div class="price">
 										<h6>$<?php echo $data->harga;?></h6>
-										<h6 class="l-through">$100.00</h6>
+										
 									</div>
 									<div class="prd-bottom">
-
-										<a href=<?php if($this->session->username){echo base_url('shop/cart');}else{echo base_url('login/index');} ?> class="social-info"> <!-- functionalnya belum -->
+										<form action="<?php echo base_url('shop/addCart')?>" method="post" id="<?php echo $data->product_id; ?>">
+											<input type="hidden" name="qty" id="sst" value="1">
+											<input type="hidden" name="id_product" value="<?php echo $data->product_id?>">
+											<input type="hidden" name="id_user" value="<?php echo $this->session->userdata('userid')?>">
+										</form>
+										<a href=<?php if($this->session->username){echo base_url('shop/cart')."/".$this->session->userid;}else{echo base_url('login/index');} ?> class="social-info" onclick="document.getElementById('<?php echo $data->product_id; ?>').submit()"> 
 											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
 										<a href="<?php echo base_url(). "shop/detail/". $data->product_id."/". str_replace(" ", "-", $data->name); ?> "class="social-info">
 											<span class="lnr lnr-move"></span>
-											<p class="hover-text">view more</p> <!-- Gambar BRONAX Men's Stylish Graffiti Eror Sa :( -->
+											<p class="hover-text">view more</p>
 										</a>
 									</div>
 								</div>

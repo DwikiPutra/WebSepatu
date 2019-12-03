@@ -18,9 +18,11 @@ class Shop extends CI_Controller {
 		$this->load->view('shop/cart_view', $data);
 	}
 	
-	public function checkout()
+	public function checkout($id_user)
 	{
-		$this->load->view('shop/checkout_view');
+		$this->load->model('Cart_model');
+		$data['cart'] = $this->Cart_model->getCartUser($id_user);
+		$this->load->view('shop/checkout_view', $data);
 	}
 	
 	public function detail($id, $name)
@@ -31,9 +33,11 @@ class Shop extends CI_Controller {
 		$this->load->view('shop/detail_view', $data);
 	}
 
-	public function confirmation()
+	public function confirmation($iduser)
 	{
-		$this->load->view('shop/confirmation_view');
+		$this->load->model('Cart_model');
+		$data['cart'] = $this->Cart_model->getCartUser($iduser);
+		$this->load->view('shop/confirmation_view', $data);
 	}
 
 	public function addCart(){
@@ -52,6 +56,10 @@ class Shop extends CI_Controller {
 	public function updateCart(){
 		$id = $this->input->post('id_cart');
 		$qty = $this->input->post('qty');
+
+		if($qty == 0){
+			$this->deleteCart();
+		}
 		$this->load->model('Cart_model');
 		$this->Cart_model->updateQuantity($id, $qty);
 		redirect('shop/cart/'.$this->input->post('id_user'));

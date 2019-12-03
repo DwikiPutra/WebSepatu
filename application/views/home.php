@@ -187,15 +187,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<h6><?php echo $pro->name; ?></h6>
 									<div class="price">
 										<h6>$<?php echo strval($pro->harga); ?></h6>
-										<h6 class="l-through">$100.00</h6>
 									</div>
 									<div class="prd-bottom">
-										<a class="social-info">
-											<span class="ti-bag"></span> <!-- Ini Belum Aktif -->
+										<form action="<?php echo base_url('shop/addCart')?>" method="post" id="<?php echo $pro->product_id; ?>">
+											<input type="hidden" name="qty" id="sst" value="1">
+											<input type="hidden" name="id_product" value="<?php echo $pro->product_id?>">
+											<input type="hidden" name="id_user" value="<?php echo $this->session->userdata('userid')?>">
+										</form>
+										<a href=<?php if($this->session->username){echo base_url('shop/cart')."/".$this->session->userid;}else{echo base_url('login/index');} ?> class="social-info" onclick="document.getElementById('<?php echo $pro->product_id; ?>').submit()"> 
+											<span class="ti-bag"></span>
 											<p class="hover-text">add to bag</p>
 										</a>
-										<a class="social-info">
-											<span class="lnr lnr-move"></span> <!-- Ini sama kyak kategori view more -->
+										<a href="<?php echo base_url(). "shop/detail/". $pro->product_id."/". str_replace(" ", "-", $pro->name); ?> "class="social-info">
+											<span class="lnr lnr-move"></span>
 											<p class="hover-text">view more</p>
 										</a>
 									</div>
@@ -227,14 +231,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<h6><?php echo $p->name; ?></h6>
 								<div class="price">
 									<h6>$<?php echo $p->harga; ?></h6>
-									<h6 class="l-through">$415.00</h6>
 								</div>
 								<div class="prd-bottom">
-
-									<a class="social-info">
-										<span class="lnr lnr-move"></span>
-										<p class="hover-text">view more</p>
-									</a>
 								</div>
 							</div>
 						</div>

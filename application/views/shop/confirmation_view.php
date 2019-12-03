@@ -26,9 +26,9 @@
 						<h4>Order Info</h4>
 						<ul class="list">
 							<li><a><span>Order number</span> : 60606</a></li>
-							<li><a><span>Date</span> : Indonesia</a></li>
-							<li><a><span>Total</span> : $805.99</a></li>
-							<li><a><span>Payment method</span> : Check payments</a></li>
+							<li><a><span>Date</span> : 12/5/2019</a></li>
+							<li><a><span>Time</span> : 06:30</a></li>
+							<li><a><span>Payment method</span> : PayPal</a></li>
 						</ul>
 					</div>
 				</div>
@@ -36,9 +36,9 @@
 					<div class="details_item">
 						<h4>Billing Address</h4>
 						<ul class="list">
-							<li><a><span>Street</span> : U3/56</a></li>
-							<li><a><span>City</span> : Indonesia</a></li>
-							<li><a><span>Country</span> : Jakarta Selatan</a></li>
+							<li><a><span>Street</span> : Jl. Raya Bogor</a></li>
+							<li><a><span>City</span> : Bogor</a></li>
+							<li><a><span>Country</span> : Indonesia</a></li>
 							<li><a><span>Postcode </span> : 36952</a></li>
 						</ul>
 					</div>
@@ -48,9 +48,9 @@
 					<div class="details_item">
 						<h4>Shipping Address</h4>
 						<ul class="list">
-							<li><a><span>Street</span> : U3/56</a></li>
-							<li><a><span>City</span> : Indonesia</a></li>
-							<li><a><span>Country</span> : Jakarta</a></li>
+							<li><a><span>Street</span> : Jl. Jendral Sudirman</a></li>
+							<li><a><span>City</span> : Jakarta Selatan</a></li>
+							<li><a><span>Country</span> : Indonesia</a></li>
 							<li><a><span>Postcode </span> : 105217</a></li>
 						</ul>
 					</div>
@@ -68,28 +68,22 @@
 							</tr>
 						</thead>
 						<tbody>
+							<?php $subtotal = 0;
+							foreach($cart as $crt):
+								$total = $crt->harga * $crt->quantity; 
+								$subtotal += $total; ?>
 							<tr>
 								<td>
-									<p>KD 6 All Star</p>
+									<p><?php echo $crt->name; ?></p>
 								</td>
 								<td>
-									<h6>x 01</h6>
+									<h6>x <?php echo $crt->quantity; ?></h6>
 								</td>
 								<td>
-									<p>$170.00</p>
+									<p>$<?php echo $total?></p>
 								</td>
 							</tr>
-							<tr>
-								<td>
-									<p>Kobe A.D. NXT Wolf Grey</p>
-								</td>
-								<td>
-									<h6>x 03</h6>
-								</td>
-								<td>
-									<p>$555.00</p>
-								</td>
-							</tr>
+							<?php endforeach;?>
 							<tr>
 								<td>
 									<h6>Subtotal</h6>
@@ -98,7 +92,7 @@
 									<h5></h5>
 								</td>
 								<td>
-									<p>$725.00</p>
+									<p>$<?php echo $subtotal; ?></p>
 								</td>
 							</tr>
 							<tr>
@@ -120,7 +114,7 @@
 									<h5></h5>
 								</td>
 								<td>
-									<h4>$805.99</h4>
+									<h4>$<?php echo $subtotal + 8.99; ?></h4>
 								</td>
 							</tr>
 						</tbody>

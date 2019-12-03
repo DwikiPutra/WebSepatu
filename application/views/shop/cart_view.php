@@ -140,7 +140,7 @@
                                 <td rowspan="2">
                                     <div class="checkout_btn_inner d-flex align-items-center">
                                         <a class="gray_btn" href=<?php echo base_url('shop/category') ?>>Continue Shopping</a> <!-- href ke kategori page 1 -->
-                                        <a class="primary-btn" href=<?php echo base_url('shop/checkout') ?>>Proceed to checkout</a> <!-- href ke Checkout -->
+                                        <a class="primary-btn" href=<?php echo base_url('shop/checkout')."/". $this->session->userid ?>>Proceed to checkout</a> <!-- href ke Checkout -->
                                     </div>
                                 </td>
                                 <td>
