@@ -41,7 +41,7 @@ class Login extends CI_Controller {
 
             $this->load->model('User_model');
             $this->User_model->inputData($data);
-            redirect('welcome/index');
+            redirect('login/index');
 
         }
     }
