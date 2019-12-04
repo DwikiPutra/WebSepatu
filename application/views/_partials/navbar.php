@@ -1,13 +1,13 @@
 <!-- Start Header Area -->
 <header class="header_area sticky-header">
-		<div class="main_menu">
-			<nav class="navbar navbar-expand-lg navbar-light main_box">
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="main_menu">
+		<nav class="navbar navbar-expand-lg navbar-light main_box">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
 					<a class="navbar-brand logo_h" href=<?php echo base_url(); ?>><img src="<?php echo base_url(); ?>assets/img/logo.png" alt=""></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="icon-bar"></span>
+					 <span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
@@ -54,5 +54,21 @@
 				</form>
 			</div>
 		</div>
+		
+		<?php if($this->session->flashdata('succes') == TRUE): ?>
+		<div class="alert alert-success alert-dismissible fade show" role="alert">
+		<p><?php echo $this->session->flashdata('succes');?></p>
+		  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<?php elseif($this->session->flashdata('fail') == TRUE): ?>
+		<div class="alert alert-danger alert-dismissible fade show" role="alert">
+		  <p><?php echo $this->session->flashdata('fail');?></p>
+		  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<?php endif; ?>
 	</header>
 	<!-- End Header Area -->
