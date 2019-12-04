@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 04 Des 2019 pada 07.25
+-- Generation Time: 04 Des 2019 pada 22.21
 -- Versi Server: 10.1.30-MariaDB
 -- PHP Version: 7.2.1
 
@@ -41,7 +41,8 @@ CREATE TABLE `carts` (
 --
 
 INSERT INTO `carts` (`cart_id`, `quantity`, `total`, `user_id`, `product_id`) VALUES
-(14, 1, 1, 3, 3);
+(14, 1, 1, 3, 3),
+(17, 1, 1, 3, 27);
 
 -- --------------------------------------------------------
 
@@ -84,7 +85,17 @@ INSERT INTO `products` (`product_id`, `name`, `harga`, `stok`, `size`, `deskrips
 (18, 'Kobe 11 Elite Low BHM', 255, 4, '41', 'Coming Product', 'Nike', 'cp5'),
 (19, 'Nike Mamba Rage Blue Nebula', 70.39, 4, '41', 'Coming Product', 'Nike', 'cp6'),
 (20, 'KD 7 What the KD', 229.99, 4, '41', 'Coming Product', 'Nike', 'cp7'),
-(21, 'Kobe 8 Mambacurial', 300.99, 4, '41', 'Coming Product', 'Nike', 'cp8');
+(21, 'Kobe 8 Mambacurial', 300.99, 4, '41', 'Coming Product', 'Nike', 'cp8'),
+(22, 'Adidas NMD Hu Pharrell Solar Pack Orange', 187, 4, '41', 'Latest Product', 'Adidas', 'lp13'),
+(23, 'Adidas Ultra Boost 1.0 Wood Wood Black', 590, 4, '41', 'Latest Product', 'Adidas', 'lp14'),
+(25, 'Adidas NMD HU Pharrell Human Race Scarlet', 699, 4, '41', 'Latest Product', 'Adidas', 'lp15'),
+(26, 'UA Curry 2 Haight Street', 250, 4, '41', 'Latest Product', 'Under Armour', 'lp16'),
+(27, 'UA Curry 2 Low Energy', 109, 4, '41', 'Latest Product', 'Under Armour', 'lp17'),
+(28, 'UA Curry 2.5 Low SC 30 Select', 199, 4, '41', 'Latest Product', 'Under Armour', 'lp18'),
+(29, 'UA Curry 2 Low Athletics', 165, 4, '41', 'Latest Product', 'Under Armour', 'lp19'),
+(30, 'Under Armour Curry 6 Fox Theatre', 229, 4, '41', 'Latest Product', 'Under Armour', 'lp20'),
+(31, 'UA Curry 2 Low Energy', 98, 4, '41', 'Latest Product', 'Under Armour', 'lp21'),
+(32, 'Adidas NMD Hu Pharrell Solar Pack Red', 213, 4, '41', 'Latest Product', 'Adidas', 'lp22');
 
 -- --------------------------------------------------------
 
@@ -121,7 +132,8 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`user_id`, `name`, `email`, `password`) VALUES
 (1, 'Kisaa', 'kisaa@gmail.com', '5f4dcc3b5aa765d61d8327deb882cf99'),
 (2, 'tes', 'tes@gmail.com', '25d55ad283aa400af464c76d713c07ad'),
-(3, 'dwiki', 'dwiki@gmail.com', '25d55ad283aa400af464c76d713c07ad');
+(3, 'dwiki', 'dwiki@gmail.com', '25d55ad283aa400af464c76d713c07ad'),
+(4, 'akihisa', 'akihisa@gmail.com', '25d55ad283aa400af464c76d713c07ad');
 
 --
 -- Indexes for dumped tables
@@ -163,13 +175,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `carts`
 --
 ALTER TABLE `carts`
-  MODIFY `cart_id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `cart_id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `product_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `product_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
 -- AUTO_INCREMENT for table `purchase`
@@ -181,7 +193,7 @@ ALTER TABLE `purchase`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `user_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)

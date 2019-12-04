@@ -71,4 +71,12 @@ class Shop extends CI_Controller {
 		$this->Cart_model->deleteById($id);
 		redirect('shop/cart/'.$this->input->post('id_user'));
 	}
+
+	public function kategori($cat){
+		$string = str_replace("-"," ",$cat);
+		$this->load->model('Product_model');
+		$data['model'] = $this->Product_model->getDataByBrand($string);
+
+		$this->load->view('shop/brand_view', $data);
+	}
 }
