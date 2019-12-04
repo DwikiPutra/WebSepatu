@@ -58,7 +58,7 @@
 							<?php if($this->session->username):?>
 								<button type="submit" value="submit" class="primary-btn">Add to Cart</button>
 							<?php else:?>
-								<a class="primary-btn" href="<?php echo base_url();?>/login/index">Add to Cart</a>
+								<a class="primary-btn" href="<?php echo base_url();?>login/index">Add to Cart</a>
 							<?php endif; ?>
 							</div>
 						</form>

@@ -54,10 +54,10 @@
 					<div class="common-filter">
 						<div class="head">Brands</div>
 						<form action="#">
-							<ul>
-								<li class="filter-list"><a href="<?php echo base_url()?>shop/kategori/Nike"><input class="pixel-radio" type="radio" id="nike" name="brand"></a><label for="nike">Nike<span>(82)</span></label></li>
-								<li class="filter-list"><a href="<?php echo base_url()?>shop/kategori/Adidas"><input class="pixel-radio" type="radio" id="adidas" name="brand"></a><label for="adidas">Adidas<span>(26)</span></label></li>
-								<li class="filter-list"><a href="<?php echo base_url()?>shop/kategori/Under-Armour"><input class="pixel-radio" type="radio" id="curry" name="brand"></a><label for="curry">Under Armour<span>(10)</span></label></li>
+                            <ul>
+								<li class="filter-list"><a href="<?php echo base_url()?>shop/kategori/Nike"><input class="pixel-radio" type="radio" id="nike" name="brand" <?php if($model[0]->brand == "Nike"){echo 'checked';}?>></a><label for="nike">Nike<span>(82)</span></label></li>
+								<li class="filter-list"><a href="<?php echo base_url()?>shop/kategori/Adidas"><input class="pixel-radio" type="radio" id="adidas" name="brand"<?php if($model[0]->brand == "Adidas"){echo 'checked';}?>></a><label for="adidas">Adidas<span>(26)</span></label></li>
+								<li class="filter-list"><a href="<?php echo base_url()?>shop/kategori/Under-Armour"><input class="pixel-radio" type="radio" id="curry" name="brand"<?php if($model[0]->brand == "Under Armour"){echo 'checked';}?>></a><label for="curry">Under Armour<span>(10)</span></label></li>
 							</ul>
 						</form>
 					</div>
@@ -106,9 +106,6 @@
 							<option value="3">Show 12</option>
 						</select>
 					</div>
-					<div class="pagination">
-						<?php echo $model['pagination'];?> 
-					</div>
 				</div>
 				<!-- End Filter Bar -->
 				
@@ -116,7 +113,7 @@
 				<section class="lattest-product-area pb-40 category-list">
 					<div class="row">
 						<!-- single product -->
-						<?php foreach($model['product'] as $data):?>
+						<?php foreach($model as $data):?>
 						<div class="col-lg-4 col-md-6">
 							<div class="single-product">
 								<img class="img-fluid" src="<?php echo base_url();?>assets/img/product/<?php echo $data->gambar;?>.jpg" alt="">

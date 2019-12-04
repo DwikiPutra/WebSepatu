@@ -45,4 +45,11 @@ class Product_model extends CI_Model{
         $query = $this->db->query('SELECT * FROM products WHERE product_id = '. $id);
         return $query->row();
     }
+
+    public function getDataByBrand($cat){
+        $this->db->where('brand', $cat);
+        $this->db->where('deskripsi', 'Latest Product');
+        $query = $this->db->get('products');
+        return $query->result();
+    }
 }
