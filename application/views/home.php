@@ -310,14 +310,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<section class="brand-area section_gap">
 		<div class="container">
 			<div class="row">
-				<a class="col single-img"> <!-- href ke kategori nike -->
+				<a class="col single-img" href="<?php echo base_url()?>shop/kategori/Nike"> <!-- href ke kategori nike -->
 					<img class="img-fluid d-block mx-auto" src="assets/img/brand/1.png" alt="">
 				</a>
-				<a class="col single-img"> <!-- href ke kategori under armour -->
-					<img class="img-fluid d-block mx-auto" src="assets/img/brand/2.png" alt="">
-				</a>
-				<a class="col single-img"> <!-- href ke kategori adidas -->
+				<a class="col single-img" href="<?php echo base_url()?>shop/kategori/Adidas"> <!-- href ke kategori under armour -->
 					<img class="img-fluid d-block mx-auto" src="assets/img/brand/3.png" alt="">
+				</a>
+				<a class="col single-img" href="<?php echo base_url()?>shop/kategori/Under-Armour"> <!-- href ke kategori adidas -->
+					<img class="img-fluid d-block mx-auto" src="assets/img/brand/2.png" alt="">
 				</a>
 			</div>
 		</div>
