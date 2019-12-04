@@ -54,7 +54,7 @@ $(document).ready(function(){
         autoplayTimeout: 5000,
         loop:true,
         nav:true,
-        navText:["<img src='assets/img/banner/prev.png'>","<img src='assets/img/banner/next.png'>"], /* INI AQSHA AKHIRNYA KETEMU PANAHNYA */
+        navText:["<img src='assets/img/product/prev.png'>","<img src='assets/img/product/next.png'>"], /* INI AQSHA AKHIRNYA KETEMU PANAHNYA */
         dots:false
     });
 
