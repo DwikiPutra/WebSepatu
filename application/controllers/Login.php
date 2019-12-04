@@ -41,6 +41,7 @@ class Login extends CI_Controller {
 
             $this->load->model('User_model');
             $this->User_model->inputData($data);
+            $this->session->set_flashdata('succes','Registrasi berhasil, silahkan login ke akun anda');
             redirect('login/index');
 
         }
@@ -60,6 +61,7 @@ class Login extends CI_Controller {
 
             redirect(base_url());
         } else {
+            $this->session->set_flashdata('fail','Username atau password yang Anda masukkan salah!');
             redirect('login/index');
         }
     }
