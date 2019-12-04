@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 26 Nov 2019 pada 19.18
+-- Generation Time: 04 Des 2019 pada 07.25
 -- Versi Server: 10.1.30-MariaDB
 -- PHP Version: 7.2.1
 
@@ -36,6 +36,13 @@ CREATE TABLE `carts` (
   `product_id` int(10) UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data untuk tabel `carts`
+--
+
+INSERT INTO `carts` (`cart_id`, `quantity`, `total`, `user_id`, `product_id`) VALUES
+(14, 1, 1, 3, 3);
+
 -- --------------------------------------------------------
 
 --
@@ -61,7 +68,7 @@ INSERT INTO `products` (`product_id`, `name`, `harga`, `stok`, `size`, `deskrips
 (2, 'Nike Zoom Fly Bright Crimson', 85, 4, '41', 'Latest Product', 'Nike', 'lp1'),
 (3, 'KD 6 Meteorology', 120, 4, '41', 'Latest Product', 'Nike', 'lp2'),
 (4, 'Kobe 11 Elite Low FCB Mambacurial', 250, 4, '41', 'Latest Product', 'Nike', 'lp3'),
-(5, 'BRONAX Men\'s Stylish Graffiti', 25.99, 4, '41', 'Latest Product', 'BRONAX', 'lp4'),
+(5, 'BRONAX Men`s Stylish Graffiti', 25.99, 4, '41', 'Latest Product', 'BRONAX', 'lp4'),
 (6, 'Adidas NMD Hu Pharrell Inspiration Pack Black', 210, 4, '41', 'Latest Product', 'Adidas', 'lp5'),
 (7, 'Air Zoom Pegasus 35 Black', 100, 4, '41', 'Latest Product', 'Nike', 'lp6'),
 (8, 'Adidas Ultra Boost 2.0 Gold Medal', 144, 4, '41', 'Latest Product', 'Adidas', 'lp7'),
@@ -73,7 +80,7 @@ INSERT INTO `products` (`product_id`, `name`, `harga`, `stok`, `size`, `deskrips
 (14, 'Kyrie 2 Low Spongebob Mr Krabs', 238, 4, '41', 'Coming Product', 'Nike', 'cp1'),
 (15, 'Nike Adapt BB Mag', 1160, 4, '41', 'Coming Product', 'Nike', 'cp2'),
 (16, 'Kobe A.D. NXT Black White', 165, 4, '41', 'Coming Product', 'Nike', 'cp3'),
-(17, 'Under Armour Curry 5 Black Gold', 139.99, 4, '41', 'Coming Product', 'Under Armour', 'cp4'),
+(17, 'Air Max 2 Light Atmos', 174, 4, '41', 'Coming Product', 'Nike', 'cp4'),
 (18, 'Kobe 11 Elite Low BHM', 255, 4, '41', 'Coming Product', 'Nike', 'cp5'),
 (19, 'Nike Mamba Rage Blue Nebula', 70.39, 4, '41', 'Coming Product', 'Nike', 'cp6'),
 (20, 'KD 7 What the KD', 229.99, 4, '41', 'Coming Product', 'Nike', 'cp7'),
@@ -106,6 +113,15 @@ CREATE TABLE `users` (
   `email` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `users`
+--
+
+INSERT INTO `users` (`user_id`, `name`, `email`, `password`) VALUES
+(1, 'Kisaa', 'kisaa@gmail.com', '5f4dcc3b5aa765d61d8327deb882cf99'),
+(2, 'tes', 'tes@gmail.com', '25d55ad283aa400af464c76d713c07ad'),
+(3, 'dwiki', 'dwiki@gmail.com', '25d55ad283aa400af464c76d713c07ad');
 
 --
 -- Indexes for dumped tables
@@ -147,7 +163,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `carts`
 --
 ALTER TABLE `carts`
-  MODIFY `cart_id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `cart_id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `products`
@@ -165,7 +181,7 @@ ALTER TABLE `purchase`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `user_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)

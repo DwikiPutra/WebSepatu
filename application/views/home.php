@@ -285,7 +285,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<div class="product-details">
 								<div class="price">
 									<h6>$86.99</h6>
-									<h6 class="l-through">$140.00</h6>
 								</div>
 								<h4>Mamba Focus Black</h4>
 							</div>
@@ -296,7 +295,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<div class="product-details">
 								<div class="price">
 									<h6>$250.00</h6>
-									<h6 class="l-through">$300.00</h6>
 								</div>
 								<h4>Kobe 11 Elite GCR Great Career Recall</h4>
 							</div>
