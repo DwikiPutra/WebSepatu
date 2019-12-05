@@ -42,7 +42,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- Optional Si Mau Dihapus Atau Ngga
 				<div class="col-lg-9">
 					<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
 						<div class="col-md-6">
@@ -66,7 +65,6 @@
 						</div>
 					</form>
 				</div>
-				-->
 			</div>
 		</div>
 	</section>
